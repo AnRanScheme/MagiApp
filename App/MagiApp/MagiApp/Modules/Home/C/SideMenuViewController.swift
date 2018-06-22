@@ -31,14 +31,19 @@ class SideMenuViewController: UIViewController {
     
     lazy var tableView: UITableView = {
         let tableView = UITableView()
+        tableView.frame = CGRect(x: 0,
+                                 y: 0,
+                                 width: menuWidth,
+                                 height: view.bounds.height)
         tableView.delegate = self
         tableView.dataSource = self
-        tableView.frame = self.view.bounds
         tableView.tableFooterView = UIView()
         tableView.register(UITableViewCell.self,
                            forCellReuseIdentifier: SideMenuViewController.identifier)
         return tableView
     }()
+    
+    let menuWidth: CGFloat = 80
 
 }
 

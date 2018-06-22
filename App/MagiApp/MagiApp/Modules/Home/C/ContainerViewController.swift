@@ -40,7 +40,8 @@ class ContainerViewController: UIViewController {
         
         menuViewController.view.layer.anchorPoint.x = 1.0
         menuViewController.view.frame = CGRect(x: -menuWidth,
-                                               y: 0, width: menuWidth,
+                                               y: 0,
+                                               width: menuWidth,
                                                height: view.frame.height)
         
         let panGesture = UIPanGestureRecognizer(target:self,

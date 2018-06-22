@@ -10,7 +10,6 @@ import UIKit
 
 class MagiTabBarController: UITabBarController {
     
-    
     // MARK: - 系统方法
 
     override func viewDidLoad() {
@@ -42,7 +41,7 @@ class MagiTabBarController: UITabBarController {
         guard let dict = anyObject as? [String: Any] else { return }
         
         guard let dictArray = dict["tabbar_items"] as? [[String : Any]] else { return }
-        
+
         for dict in dictArray {
             
             guard let vcName = dict["page"] as? String else { continue }

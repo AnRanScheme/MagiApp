@@ -884,7 +884,6 @@
 		FA61F47A20DCC0C300339E05 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				FA61F47B20DCC0C300339E05 /* MenuButton.swift */,
 				FA61F47C20DCC0C300339E05 /* MenuItem.swift */,
 			);
 			path = Cell;
@@ -893,6 +892,7 @@
 		FA61F47D20DCC0C300339E05 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FA61F47B20DCC0C300339E05 /* MenuButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
