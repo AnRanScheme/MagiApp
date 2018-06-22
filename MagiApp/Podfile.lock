@@ -58,6 +58,7 @@ DEPENDENCIES:
   - Kingfisher (~> 4.0)
   - Moya (~> 11.0)
   - ObjectMapper (~> 3.2)
+  - RealmSwift
   - RxBlocking (~> 4.0)
   - RxCocoa (~> 4.0)
   - RxSwift (~> 4.0)
