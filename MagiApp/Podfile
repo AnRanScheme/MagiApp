@@ -24,8 +24,6 @@ target 'MagiApp' do
   pod 'SwiftProtobuf'
   # 图表绘制
   pod 'Charts'
-  # 统计
-  pod 'Firebase/Core'
   # 异步绘制框架
   pod "Texture"
 

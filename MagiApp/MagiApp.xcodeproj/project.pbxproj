@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A4C11BB1E13486C1C2EFF2C /* Pods_MagiAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6108A6F8D765525360524149 /* Pods_MagiAppUITests.framework */; };
+		515A2E330B38DD6DEAD30713 /* Pods_MagiApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FDB47AA99844BEB0DC9B9B /* Pods_MagiApp.framework */; };
+		B4AB22BEF0DE577311D0F539 /* Pods_MagiAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9625D2A27A5161E49B38FFCA /* Pods_MagiAppTests.framework */; };
 		FA61F2C920DCA79800339E05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F2C820DCA79800339E05 /* AppDelegate.swift */; };
 		FA61F2D320DCA79A00339E05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA61F2D120DCA79A00339E05 /* LaunchScreen.storyboard */; };
 		FA61F2DE20DCA79A00339E05 /* MagiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F2DD20DCA79A00339E05 /* MagiAppTests.swift */; };
@@ -216,6 +219,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		337B2F37713673659A24639E /* Pods-MagiAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagiAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagiAppUITests/Pods-MagiAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		43FDB47AA99844BEB0DC9B9B /* Pods_MagiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagiApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6108A6F8D765525360524149 /* Pods_MagiAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagiAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7623FA873D7DCCB5863F57D7 /* Pods-MagiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagiApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagiApp/Pods-MagiApp.release.xcconfig"; sourceTree = "<group>"; };
+		8A2C693DE3E9729609A31F5A /* Pods-MagiAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagiAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagiAppTests/Pods-MagiAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9625D2A27A5161E49B38FFCA /* Pods_MagiAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagiAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F766BE8D7AD18A22339CBE2 /* Pods-MagiAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagiAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagiAppTests/Pods-MagiAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		FA61F2C520DCA79800339E05 /* MagiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA61F2C820DCA79800339E05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA61F2D220DCA79A00339E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -413,6 +423,8 @@
 		FA61F49420DCC19800339E05 /* MagiNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiNewsViewController.swift; sourceTree = "<group>"; };
 		FA61F49620DCC1AA00339E05 /* MagiMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiMineViewController.swift; sourceTree = "<group>"; };
 		FA61F49C20DCC46A00339E05 /* MagiCommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiCommunityViewController.swift; sourceTree = "<group>"; };
+		FF7AEA5F27B6C1D940F8D12D /* Pods-MagiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagiApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagiApp/Pods-MagiApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FF831C980DA937B7A859F03C /* Pods-MagiAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagiAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagiAppUITests/Pods-MagiAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -420,6 +432,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				515A2E330B38DD6DEAD30713 /* Pods_MagiApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +440,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4AB22BEF0DE577311D0F539 /* Pods_MagiAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,12 +448,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4C11BB1E13486C1C2EFF2C /* Pods_MagiAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA3C4A7F6A08AF9270113798 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF7AEA5F27B6C1D940F8D12D /* Pods-MagiApp.debug.xcconfig */,
+				7623FA873D7DCCB5863F57D7 /* Pods-MagiApp.release.xcconfig */,
+				8A2C693DE3E9729609A31F5A /* Pods-MagiAppTests.debug.xcconfig */,
+				9F766BE8D7AD18A22339CBE2 /* Pods-MagiAppTests.release.xcconfig */,
+				337B2F37713673659A24639E /* Pods-MagiAppUITests.debug.xcconfig */,
+				FF831C980DA937B7A859F03C /* Pods-MagiAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F736AD65F1DABA9C1526978C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43FDB47AA99844BEB0DC9B9B /* Pods_MagiApp.framework */,
+				9625D2A27A5161E49B38FFCA /* Pods_MagiAppTests.framework */,
+				6108A6F8D765525360524149 /* Pods_MagiAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA61F2BC20DCA79800339E05 = {
 			isa = PBXGroup;
 			children = (
@@ -447,6 +485,8 @@
 				FA61F2DC20DCA79A00339E05 /* MagiAppTests */,
 				FA61F2E720DCA79A00339E05 /* MagiAppUITests */,
 				FA61F2C620DCA79800339E05 /* Products */,
+				AA3C4A7F6A08AF9270113798 /* Pods */,
+				F736AD65F1DABA9C1526978C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1002,9 +1042,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA61F2ED20DCA79A00339E05 /* Build configuration list for PBXNativeTarget "MagiApp" */;
 			buildPhases = (
+				9D0C0799B60B1FFCD9E93197 /* [CP] Check Pods Manifest.lock */,
 				FA61F2C120DCA79800339E05 /* Sources */,
 				FA61F2C220DCA79800339E05 /* Frameworks */,
 				FA61F2C320DCA79800339E05 /* Resources */,
+				7131ECA93BAB9D2D9010CE90 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1019,9 +1061,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA61F2F020DCA79A00339E05 /* Build configuration list for PBXNativeTarget "MagiAppTests" */;
 			buildPhases = (
+				B7C05431291A870C1DDC32DC /* [CP] Check Pods Manifest.lock */,
 				FA61F2D520DCA79A00339E05 /* Sources */,
 				FA61F2D620DCA79A00339E05 /* Frameworks */,
 				FA61F2D720DCA79A00339E05 /* Resources */,
+				4E090D87F2C269C0BE0DBA8D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1037,6 +1081,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA61F2F320DCA79A00339E05 /* Build configuration list for PBXNativeTarget "MagiAppUITests" */;
 			buildPhases = (
+				2A42BE5E81163FC31070D8A5 /* [CP] Check Pods Manifest.lock */,
 				FA61F2E020DCA79A00339E05 /* Sources */,
 				FA61F2E120DCA79A00339E05 /* Frameworks */,
 				FA61F2E220DCA79A00339E05 /* Resources */,
@@ -1128,6 +1173,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A42BE5E81163FC31070D8A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagiAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E090D87F2C269C0BE0DBA8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MagiAppTests/Pods-MagiAppTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagiAppTests/Pods-MagiAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7131ECA93BAB9D2D9010CE90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MagiApp/Pods-MagiApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftProtobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagiApp/Pods-MagiApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D0C0799B60B1FFCD9E93197 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagiApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7C05431291A870C1DDC32DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagiAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA61F2C120DCA79800339E05 /* Sources */ = {
@@ -1480,16 +1648,14 @@
 		};
 		FA61F2EE20DCA79A00339E05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7AEA5F27B6C1D940F8D12D /* Pods-MagiApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TDBLA72SEX;
 				INFOPLIST_FILE = MagiApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.anran.MagiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -1499,16 +1665,14 @@
 		};
 		FA61F2EF20DCA79A00339E05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7623FA873D7DCCB5863F57D7 /* Pods-MagiApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TDBLA72SEX;
 				INFOPLIST_FILE = MagiApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.anran.MagiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -1518,16 +1682,13 @@
 		};
 		FA61F2F120DCA79A00339E05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2C693DE3E9729609A31F5A /* Pods-MagiAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MagiAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.anran.MagiAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -1538,16 +1699,13 @@
 		};
 		FA61F2F220DCA79A00339E05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F766BE8D7AD18A22339CBE2 /* Pods-MagiAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MagiAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.anran.MagiAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -1558,15 +1716,12 @@
 		};
 		FA61F2F420DCA79A00339E05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 337B2F37713673659A24639E /* Pods-MagiAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MagiAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.anran.MagiAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -1577,15 +1732,12 @@
 		};
 		FA61F2F520DCA79A00339E05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF831C980DA937B7A859F03C /* Pods-MagiAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MagiAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.anran.MagiAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
