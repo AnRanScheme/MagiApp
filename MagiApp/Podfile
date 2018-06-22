@@ -1,5 +1,7 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '9.0'
+
+inhibit_all_warnings!
 
 target 'MagiApp' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
@@ -8,24 +10,24 @@ target 'MagiApp' do
   # Pods for MagiApp
 
   # 网络库
-  pod 'Alamofire', '~> 4.7' ,:inhibit_warnings => true
-  pod 'Moya', '~> 11.0' ,:inhibit_warnings => true
+  pod 'Alamofire', '~> 4.7'
+  pod 'Moya', '~> 11.0'
 
   # 信号
-  pod 'RxSwift',    '~> 4.0' ,:inhibit_warnings => true
-  pod 'RxCocoa',    '~> 4.0' ,:inhibit_warnings => true
+  pod 'RxSwift',    '~> 4.0'
+  pod 'RxCocoa',    '~> 4.0'
   # 图片缓存
-  pod 'Kingfisher’ ,:inhibit_warnings => true
+  pod 'Kingfisher’
   # 字典转模型
-  pod 'ObjectMapper' ,:inhibit_warnings => true
-  # 约束 autolayout ,:inhibit_warnings => true
-  pod 'SnapKit' ,:inhibit_warnings => true
+  pod 'ObjectMapper'
+  # 约束 autolayout
+  pod 'SnapKit'
   # 传输协议
-  pod 'SwiftProtobuf' ,:inhibit_warnings => true
+  pod 'SwiftProtobuf'
   # 图表绘制
-  pod 'Charts' ,:inhibit_warnings => true
+  pod 'Charts'
   # 异步绘制框架
-  pod "Texture" ,:inhibit_warnings => true
+  pod "Texture"
 
   target 'MagiAppTests' do
     inherit! :search_paths
