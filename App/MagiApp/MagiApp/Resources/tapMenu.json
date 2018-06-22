@@ -9,11 +9,11 @@
                     "normal_icon_select":"tabbar_home_selected"
                     },
                     {
-                    "page":"MagiNewsViewController",
-                    "type":"news",
-                    "title":"消息",
-                    "normal_icon":"tabbar_message_center",
-                    "normal_icon_select":"tabbar_message_center_selected"
+                    "page":"MagiCommunityViewController",
+                    "type":"community",
+                    "title":"社区",
+                    "normal_icon":"tabbar_discover",
+                    "normal_icon_select":"tabbar_discover_selected"
                     },
                     {
                     "page":"MagiFindViewController",
@@ -23,11 +23,11 @@
                     "normal_icon_select":"tabbar_compose_icon_add_highlighted"
                     },
                     {
-                    "page":"MagiCommunityViewController",
-                    "type":"community",
-                    "title":"社区",
-                    "normal_icon":"tabbar_discover",
-                    "normal_icon_select":"tabbar_discover_selected"
+                    "page":"MagiNewsViewController",
+                    "type":"news",
+                    "title":"消息",
+                    "normal_icon":"tabbar_message_center",
+                    "normal_icon_select":"tabbar_message_center_selected"
                     },
                     {
                     "page":"MagiMineViewController",

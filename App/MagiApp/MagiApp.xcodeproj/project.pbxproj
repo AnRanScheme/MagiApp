@@ -183,9 +183,19 @@
 		FA61F46920DCAAD100339E05 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA61F3B720DCAAD000339E05 /* Roboto-Bold.ttf */; };
 		FA61F46A20DCAAD100339E05 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA61F3B820DCAAD000339E05 /* Roboto-Thin.ttf */; };
 		FA61F46B20DCAAD100339E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA61F3BA20DCAAD000339E05 /* Assets.xcassets */; };
-		FA61F46C20DCAAD100339E05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA61F3BB20DCAAD000339E05 /* LaunchScreen.storyboard */; };
 		FA61F46D20DCAAD100339E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA61F3BD20DCAAD000339E05 /* Main.storyboard */; };
 		FA61F46E20DCAAD100339E05 /* tapMenu.json in Resources */ = {isa = PBXBuildFile; fileRef = FA61F3BF20DCAAD000339E05 /* tapMenu.json */; };
+		FA61F47120DCC0B800339E05 /* MagiNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F46F20DCC0B800339E05 /* MagiNavigationController.swift */; };
+		FA61F47220DCC0B800339E05 /* MagiTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F47020DCC0B800339E05 /* MagiTabBarController.swift */; };
+		FA61F47E20DCC0C300339E05 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F47520DCC0C200339E05 /* SideMenuViewController.swift */; };
+		FA61F47F20DCC0C300339E05 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F47620DCC0C200339E05 /* ContainerViewController.swift */; };
+		FA61F48020DCC0C300339E05 /* CenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F47720DCC0C200339E05 /* CenterViewController.swift */; };
+		FA61F48220DCC0C300339E05 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F47B20DCC0C300339E05 /* MenuButton.swift */; };
+		FA61F48320DCC0C300339E05 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F47C20DCC0C300339E05 /* MenuItem.swift */; };
+		FA61F49320DCC18800339E05 /* MagiFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F49220DCC18800339E05 /* MagiFindViewController.swift */; };
+		FA61F49520DCC19800339E05 /* MagiNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F49420DCC19800339E05 /* MagiNewsViewController.swift */; };
+		FA61F49720DCC1AA00339E05 /* MagiMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F49620DCC1AA00339E05 /* MagiMineViewController.swift */; };
+		FA61F49D20DCC46A00339E05 /* MagiCommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F49C20DCC46A00339E05 /* MagiCommunityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -390,9 +400,19 @@
 		FA61F3B720DCAAD000339E05 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		FA61F3B820DCAAD000339E05 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		FA61F3BA20DCAAD000339E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FA61F3BC20DCAAD000339E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA61F3BE20DCAAD000339E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA61F3BF20DCAAD000339E05 /* tapMenu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tapMenu.json; sourceTree = "<group>"; };
+		FA61F46F20DCC0B800339E05 /* MagiNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiNavigationController.swift; sourceTree = "<group>"; };
+		FA61F47020DCC0B800339E05 /* MagiTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiTabBarController.swift; sourceTree = "<group>"; };
+		FA61F47520DCC0C200339E05 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		FA61F47620DCC0C200339E05 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		FA61F47720DCC0C200339E05 /* CenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterViewController.swift; sourceTree = "<group>"; };
+		FA61F47B20DCC0C300339E05 /* MenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		FA61F47C20DCC0C300339E05 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		FA61F49220DCC18800339E05 /* MagiFindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiFindViewController.swift; sourceTree = "<group>"; };
+		FA61F49420DCC19800339E05 /* MagiNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiNewsViewController.swift; sourceTree = "<group>"; };
+		FA61F49620DCC1AA00339E05 /* MagiMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiMineViewController.swift; sourceTree = "<group>"; };
+		FA61F49C20DCC46A00339E05 /* MagiCommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiCommunityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -486,7 +506,7 @@
 			children = (
 				FA61F2FF20DCAAD000339E05 /* Main */,
 				FA61F2FA20DCAAD000339E05 /* Home */,
-				FA61F2FB20DCAAD000339E05 /* Message */,
+				FA61F49820DCC44D00339E05 /* Community */,
 				FA61F2FE20DCAAD000339E05 /* Find */,
 				FA61F2FC20DCAAD000339E05 /* News */,
 				FA61F2FD20DCAAD000339E05 /* Mine */,
@@ -497,20 +517,19 @@
 		FA61F2FA20DCAAD000339E05 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				FA61F47420DCC0C200339E05 /* C */,
+				FA61F47320DCC0C200339E05 /* M */,
+				FA61F47920DCC0C300339E05 /* V */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		FA61F2FB20DCAAD000339E05 /* Message */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Message;
 			sourceTree = "<group>";
 		};
 		FA61F2FC20DCAAD000339E05 /* News */ = {
 			isa = PBXGroup;
 			children = (
+				FA61F48B20DCC0E100339E05 /* C */,
+				FA61F48A20DCC0E100339E05 /* M */,
+				FA61F48C20DCC0E100339E05 /* V */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -518,6 +537,9 @@
 		FA61F2FD20DCAAD000339E05 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				FA61F48F20DCC0EB00339E05 /* C */,
+				FA61F48E20DCC0EB00339E05 /* M */,
+				FA61F48D20DCC0EB00339E05 /* V */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -525,6 +547,9 @@
 		FA61F2FE20DCAAD000339E05 /* Find */ = {
 			isa = PBXGroup;
 			children = (
+				FA61F48720DCC0D700339E05 /* C */,
+				FA61F48820DCC0D700339E05 /* M */,
+				FA61F48920DCC0D700339E05 /* V */,
 			);
 			path = Find;
 			sourceTree = "<group>";
@@ -532,6 +557,8 @@
 		FA61F2FF20DCAAD000339E05 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				FA61F46F20DCC0B800339E05 /* MagiNavigationController.swift */,
+				FA61F47020DCC0B800339E05 /* MagiTabBarController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -820,13 +847,152 @@
 		FA61F3B920DCAAD000339E05 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FA61F3BD20DCAAD000339E05 /* Main.storyboard */,
 				FA61F2D120DCA79A00339E05 /* LaunchScreen.storyboard */,
 				FA61F3BA20DCAAD000339E05 /* Assets.xcassets */,
-				FA61F3BB20DCAAD000339E05 /* LaunchScreen.storyboard */,
-				FA61F3BD20DCAAD000339E05 /* Main.storyboard */,
 				FA61F3BF20DCAAD000339E05 /* tapMenu.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA61F47320DCC0C200339E05 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		FA61F47420DCC0C200339E05 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				FA61F47520DCC0C200339E05 /* SideMenuViewController.swift */,
+				FA61F47620DCC0C200339E05 /* ContainerViewController.swift */,
+				FA61F47720DCC0C200339E05 /* CenterViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		FA61F47920DCC0C300339E05 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				FA61F47A20DCC0C300339E05 /* Cell */,
+				FA61F47D20DCC0C300339E05 /* View */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		FA61F47A20DCC0C300339E05 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FA61F47B20DCC0C300339E05 /* MenuButton.swift */,
+				FA61F47C20DCC0C300339E05 /* MenuItem.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FA61F47D20DCC0C300339E05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA61F48720DCC0D700339E05 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				FA61F49220DCC18800339E05 /* MagiFindViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		FA61F48820DCC0D700339E05 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		FA61F48920DCC0D700339E05 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		FA61F48A20DCC0E100339E05 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		FA61F48B20DCC0E100339E05 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				FA61F49420DCC19800339E05 /* MagiNewsViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		FA61F48C20DCC0E100339E05 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		FA61F48D20DCC0EB00339E05 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		FA61F48E20DCC0EB00339E05 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		FA61F48F20DCC0EB00339E05 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				FA61F49620DCC1AA00339E05 /* MagiMineViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		FA61F49820DCC44D00339E05 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				FA61F49A20DCC44D00339E05 /* C */,
+				FA61F49920DCC44D00339E05 /* M */,
+				FA61F49B20DCC44D00339E05 /* V */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		FA61F49920DCC44D00339E05 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		FA61F49A20DCC44D00339E05 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				FA61F49C20DCC46A00339E05 /* MagiCommunityViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		FA61F49B20DCC44D00339E05 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -937,7 +1103,6 @@
 				FA61F46920DCAAD100339E05 /* Roboto-Bold.ttf in Resources */,
 				FA61F46E20DCAAD100339E05 /* tapMenu.json in Resources */,
 				FA61F46820DCAAD100339E05 /* Roboto-Regular.ttf in Resources */,
-				FA61F46C20DCAAD100339E05 /* LaunchScreen.storyboard in Resources */,
 				FA61F46620DCAAD100339E05 /* Roboto-Medium.ttf in Resources */,
 				FA61F46D20DCAAD100339E05 /* Main.storyboard in Resources */,
 				FA61F3E820DCAAD100339E05 /* MagiMotionInfo.plist in Resources */,
@@ -970,6 +1135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA61F45420DCAAD100339E05 /* TransitionController.swift in Sources */,
+				FA61F49520DCC19800339E05 /* MagiNewsViewController.swift in Sources */,
 				FA61F43820DCAAD100339E05 /* FABButton.swift in Sources */,
 				FA61F3F520DCAAD100339E05 /* MagiMotionTransition+UIViewControllerTransitioningDelegate.swift in Sources */,
 				FA61F40A20DCAAD100339E05 /* MagiMotion+CAMediaTimingFunction.swift in Sources */,
@@ -984,6 +1150,7 @@
 				FA61F41A20DCAAD100339E05 /* NavigationDrawerController.swift in Sources */,
 				FA61F3E520DCAAD100339E05 /* Coordinator.swift in Sources */,
 				FA61F43C20DCAAD100339E05 /* ChipBar.swift in Sources */,
+				FA61F47F20DCC0C300339E05 /* ContainerViewController.swift in Sources */,
 				FA61F3F420DCAAD100339E05 /* MagiMotionTransition+Interactive.swift in Sources */,
 				FA61F3C420DCAAD100339E05 /* Ext+UIImageView.swift in Sources */,
 				FA61F3C920DCAAD100339E05 /* Storage.swift in Sources */,
@@ -1022,11 +1189,13 @@
 				FA61F40C20DCAAD100339E05 /* MagiMotionAnimationFillMode.swift in Sources */,
 				FA61F3F620DCAAD100339E05 /* MagiMotionTransition+Animate.swift in Sources */,
 				FA61F41020DCAAD100339E05 /* MagiMotionViewOrderStrategy.swift in Sources */,
+				FA61F48320DCC0C300339E05 /* MenuItem.swift in Sources */,
 				FA61F42620DCAAD100339E05 /* NavigationBar.swift in Sources */,
 				FA61F3EF20DCAAD100339E05 /* MagiMotionCorePreprocessor.swift in Sources */,
 				FA61F41920DCAAD100339E05 /* View.swift in Sources */,
 				FA61F46420DCAAD100339E05 /* CollectionViewController.swift in Sources */,
 				FA61F3C520DCAAD100339E05 /* Ext+UIView.swift in Sources */,
+				FA61F49720DCC1AA00339E05 /* MagiMineViewController.swift in Sources */,
 				FA61F45D20DCAAD100339E05 /* Button.swift in Sources */,
 				FA61F3F720DCAAD100339E05 /* MagiMotionTransition.swift in Sources */,
 				FA61F41220DCAAD100339E05 /* MagiMotionTransitionObserver.swift in Sources */,
@@ -1034,6 +1203,7 @@
 				FA61F3CA20DCAAD100339E05 /* ManagedEntity.swift in Sources */,
 				FA61F43220DCAAD100339E05 /* PresenterCard.swift in Sources */,
 				FA61F44C20DCAAD100339E05 /* CardCollectionViewController.swift in Sources */,
+				FA61F47120DCC0B800339E05 /* MagiNavigationController.swift in Sources */,
 				FA61F3F220DCAAD100339E05 /* MagiMotionTransition+Start.swift in Sources */,
 				FA61F44720DCAAD100339E05 /* Material+UIViewController.swift in Sources */,
 				FA61F41C20DCAAD100339E05 /* DynamicFontType.swift in Sources */,
@@ -1053,8 +1223,11 @@
 				FA61F42C20DCAAD100339E05 /* Snackbar.swift in Sources */,
 				FA61F3DC20DCAAD100339E05 /* ManagedRelationship.swift in Sources */,
 				FA61F45620DCAAD100339E05 /* Layout.swift in Sources */,
+				FA61F47220DCC0B800339E05 /* MagiTabBarController.swift in Sources */,
 				FA61F3C320DCAAD100339E05 /* Ext+UIButton.swift in Sources */,
 				FA61F45220DCAAD100339E05 /* ErrorTextField.swift in Sources */,
+				FA61F47E20DCC0C300339E05 /* SideMenuViewController.swift in Sources */,
+				FA61F49320DCC18800339E05 /* MagiFindViewController.swift in Sources */,
 				FA61F41320DCAAD100339E05 /* MagiMotionAnimationState.swift in Sources */,
 				FA61F43D20DCAAD100339E05 /* SearchBarController.swift in Sources */,
 				FA61F3F320DCAAD100339E05 /* MagiMotionTransition+UINavigationControllerDelegate.swift in Sources */,
@@ -1084,6 +1257,8 @@
 				FA61F42A20DCAAD100339E05 /* HeightPreset.swift in Sources */,
 				FA61F45F20DCAAD100339E05 /* Color.swift in Sources */,
 				FA61F46520DCAAD100339E05 /* DisplayStyle.swift in Sources */,
+				FA61F48220DCC0C300339E05 /* MenuButton.swift in Sources */,
+				FA61F48020DCC0C300339E05 /* CenterViewController.swift in Sources */,
 				FA61F42E20DCAAD100339E05 /* FlatButton.swift in Sources */,
 				FA61F44520DCAAD100339E05 /* Gravity.swift in Sources */,
 				FA61F44320DCAAD100339E05 /* Material+String.swift in Sources */,
@@ -1105,6 +1280,7 @@
 				FA61F3EC20DCAAD100339E05 /* MagiTransitionPreprocessor.swift in Sources */,
 				FA61F3C720DCAAD100339E05 /* Ext+UIBarButtonItem.swift in Sources */,
 				FA61F3E320DCAAD100339E05 /* Node.swift in Sources */,
+				FA61F49D20DCC46A00339E05 /* MagiCommunityViewController.swift in Sources */,
 				FA61F40720DCAAD100339E05 /* MagiMotion+UIView.swift in Sources */,
 				FA61F40120DCAAD100339E05 /* MagiMotionAnimatorViewContext.swift in Sources */,
 				FA61F40E20DCAAD100339E05 /* MagiMotionSnapshotType.swift in Sources */,
@@ -1173,14 +1349,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				FA61F2D220DCA79A00339E05 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		FA61F3BB20DCAAD000339E05 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA61F3BC20DCAAD000339E05 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
