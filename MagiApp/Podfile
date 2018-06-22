@@ -10,22 +10,24 @@ target 'MagiApp' do
   # Pods for MagiApp
 
   # 网络库
-  pod 'Alamofire', '~> 4.7'
-  pod 'Moya', '~> 11.0'
-
+  pod 'Alamofire',    '~> 4.7'
+  pod 'Moya',         '~> 11.0'
+  # 数据持久化
+  pod 'RealmSwift'
   # 信号
-  pod 'RxSwift',    '~> 4.0'
-  pod 'RxCocoa',    '~> 4.0'
+  pod 'RxSwift',      '~> 4.0'
+  pod 'RxCocoa',      '~> 4.0'
   # 图片缓存
-  pod 'Kingfisher’
+  pod 'Kingfisher’,    '~> 4.0'
   # 字典转模型
-  pod 'ObjectMapper'
-  # 约束 autolayout
-  pod 'SnapKit'
+  pod 'ObjectMapper',  '~> 3.2'
+  # 约束 autolayout 
+  pod 'SnapKit',       '~> 4.0.0'
   # 传输协议
   pod 'SwiftProtobuf'
   # 图表绘制
   pod 'Charts'
+  pod 'ChartsRealm'
   # 异步绘制框架
   pod "Texture"
 
