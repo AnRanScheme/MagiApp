@@ -8,24 +8,24 @@ target 'MagiApp' do
   # Pods for MagiApp
 
   # 网络库
-  pod 'Alamofire', '~> 4.7'
-  pod 'Moya', '~> 11.0'
+  pod 'Alamofire', '~> 4.7' ,:inhibit_warnings => true
+  pod 'Moya', '~> 11.0' ,:inhibit_warnings => true
 
   # 信号
-  pod 'RxSwift',    '~> 4.0'
-  pod 'RxCocoa',    '~> 4.0'
+  pod 'RxSwift',    '~> 4.0' ,:inhibit_warnings => true
+  pod 'RxCocoa',    '~> 4.0' ,:inhibit_warnings => true
   # 图片缓存
-  pod 'Kingfisher’
+  pod 'Kingfisher’ ,:inhibit_warnings => true
   # 字典转模型
-  pod 'ObjectMapper'
-  # 约束 autolayout
-  pod 'SnapKit'
+  pod 'ObjectMapper' ,:inhibit_warnings => true
+  # 约束 autolayout ,:inhibit_warnings => true
+  pod 'SnapKit' ,:inhibit_warnings => true
   # 传输协议
-  pod 'SwiftProtobuf'
+  pod 'SwiftProtobuf' ,:inhibit_warnings => true
   # 图表绘制
-  pod 'Charts'
+  pod 'Charts' ,:inhibit_warnings => true
   # 异步绘制框架
-  pod "Texture"
+  pod "Texture" ,:inhibit_warnings => true
 
   target 'MagiAppTests' do
     inherit! :search_paths
