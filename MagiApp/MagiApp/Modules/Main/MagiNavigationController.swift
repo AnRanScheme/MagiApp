@@ -12,7 +12,8 @@ class MagiNavigationController: UINavigationController, UIGestureRecognizerDeleg
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        interactivePopGestureRecognizer?.delegate = self 
+        interactivePopGestureRecognizer?.delegate = self
+        navigationBar.isTranslucent = false
     }
 
     override func didReceiveMemoryWarning() {

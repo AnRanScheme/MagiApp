@@ -69,6 +69,9 @@ extension MagiCommunityViewController: UITableViewDataSource {
 extension MagiCommunityViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = URLSessionViewController()
+        navigationController?.pushViewController(vc,
+                                                 animated: true)
     }
 
 }
