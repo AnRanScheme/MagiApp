@@ -22,7 +22,7 @@ target 'MagiApp' do
   # 字典转模型
   pod 'ObjectMapper',  '~> 3.2'
   # 约束 autolayout 
-  pod 'SnapKit',       '~> 4.0.0'
+  pod 'SnapKit'
   # 传输协议
   pod 'SwiftProtobuf'
   # 图表绘制

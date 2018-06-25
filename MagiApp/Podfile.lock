@@ -63,7 +63,7 @@ DEPENDENCIES:
   - RxCocoa (~> 4.0)
   - RxSwift (~> 4.0)
   - RxTest (~> 4.0)
-  - SnapKit (~> 4.0.0)
+  - SnapKit
   - SwiftProtobuf
   - Texture
 
@@ -110,6 +110,6 @@ SPEC CHECKSUMS:
   SwiftProtobuf: 5ccc0e4054e37c75800e5744acb2aa80bb72b39c
   Texture: 9d7e38965cf22ccd7cd9c249dd78b3f14e70ab6c
 
-PODFILE CHECKSUM: 45c0209448e16185b0854f46cd41c2455a2701b9
+PODFILE CHECKSUM: b41764230eb7718ef2685c6a823c145e00896710
 
 COCOAPODS: 1.5.0

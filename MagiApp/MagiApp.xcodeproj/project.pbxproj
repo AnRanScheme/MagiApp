@@ -200,6 +200,11 @@
 		FAAB46A720E0BBF6001120B3 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAAB465120E0BBF6001120B3 /* Roboto-Bold.ttf */; };
 		FAAB46A820E0BBF6001120B3 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAAB465220E0BBF6001120B3 /* Roboto-Thin.ttf */; };
 		FAAB46AB20E0C08D001120B3 /* MagiApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB46AA20E0C08D001120B3 /* MagiApplication.swift */; };
+		FAAB46AD20E0C784001120B3 /* MagiScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB46AC20E0C784001120B3 /* MagiScreen.swift */; };
+		FAAB46B320E0CAB3001120B3 /* upload.php in Resources */ = {isa = PBXBuildFile; fileRef = FAAB46B020E0CAB2001120B3 /* upload.php */; };
+		FAAB46B420E0CAB3001120B3 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAB46B120E0CAB2001120B3 /* test.png */; };
+		FAAB46B520E0CAB3001120B3 /* uploadImage.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAB46B220E0CAB2001120B3 /* uploadImage.png */; };
+		FAAB46B920E0CC84001120B3 /* URLSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB46B820E0CC84001120B3 /* URLSessionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -425,6 +430,11 @@
 		FAAB465120E0BBF6001120B3 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		FAAB465220E0BBF6001120B3 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		FAAB46AA20E0C08D001120B3 /* MagiApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiApplication.swift; sourceTree = "<group>"; };
+		FAAB46AC20E0C784001120B3 /* MagiScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiScreen.swift; sourceTree = "<group>"; };
+		FAAB46B020E0CAB2001120B3 /* upload.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = upload.php; sourceTree = "<group>"; };
+		FAAB46B120E0CAB2001120B3 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		FAAB46B220E0CAB2001120B3 /* uploadImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uploadImage.png; sourceTree = "<group>"; };
+		FAAB46B820E0CC84001120B3 /* URLSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionViewController.swift; sourceTree = "<group>"; };
 		FF7AEA5F27B6C1D940F8D12D /* Pods-MagiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagiApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagiApp/Pods-MagiApp.debug.xcconfig"; sourceTree = "<group>"; };
 		FF831C980DA937B7A859F03C /* Pods-MagiAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagiAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagiAppUITests/Pods-MagiAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -510,6 +520,7 @@
 				FA61F30020DCAAD000339E05 /* BaseFramework */,
 				FA61F2F620DCAAD000339E05 /* Service */,
 				FA61F3B920DCAAD000339E05 /* Resources */,
+				FAAB46AE20E0C9A9001120B3 /* Example */,
 				FA61F2C820DCA79800339E05 /* AppDelegate.swift */,
 				FA61F2D420DCA79A00339E05 /* Info.plist */,
 			);
@@ -1042,8 +1053,28 @@
 			children = (
 				FAAB463520E0BBF6001120B3 /* MagiMaterialAssets.xcassets */,
 				FAAB46AA20E0C08D001120B3 /* MagiApplication.swift */,
+				FAAB46AC20E0C784001120B3 /* MagiScreen.swift */,
 			);
 			path = MagiMaterial;
+			sourceTree = "<group>";
+		};
+		FAAB46AE20E0C9A9001120B3 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB46AF20E0C9A9001120B3 /* URLSessionDemo */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		FAAB46AF20E0C9A9001120B3 /* URLSessionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB46B120E0CAB2001120B3 /* test.png */,
+				FAAB46B020E0CAB2001120B3 /* upload.php */,
+				FAAB46B220E0CAB2001120B3 /* uploadImage.png */,
+				FAAB46B820E0CC84001120B3 /* URLSessionViewController.swift */,
+			);
+			path = URLSessionDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1157,13 +1188,16 @@
 			files = (
 				FA61F46E20DCAAD100339E05 /* tapMenu.json in Resources */,
 				FAAB468D20E0BBF6001120B3 /* MagiMaterialAssets.xcassets in Resources */,
+				FAAB46B520E0CAB3001120B3 /* uploadImage.png in Resources */,
 				FAAB46A720E0BBF6001120B3 /* Roboto-Bold.ttf in Resources */,
 				FA61F46D20DCAAD100339E05 /* Main.storyboard in Resources */,
 				FAAB46A820E0BBF6001120B3 /* Roboto-Thin.ttf in Resources */,
+				FAAB46B420E0CAB3001120B3 /* test.png in Resources */,
 				FAAB46A420E0BBF6001120B3 /* Roboto-Medium.ttf in Resources */,
 				FA61F3E820DCAAD100339E05 /* MagiMotionInfo.plist in Resources */,
 				FA61F46B20DCAAD100339E05 /* Assets.xcassets in Resources */,
 				FAAB46A620E0BBF6001120B3 /* Roboto-Regular.ttf in Resources */,
+				FAAB46B320E0CAB3001120B3 /* upload.php in Resources */,
 				FAAB46A520E0BBF6001120B3 /* Roboto-Light.ttf in Resources */,
 				FA61F2D320DCA79A00339E05 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -1385,6 +1419,7 @@
 				FAAB467820E0BBF6001120B3 /* Material+UIWindow.swift in Sources */,
 				FAAB469F20E0BBF6001120B3 /* CornerRadius.swift in Sources */,
 				FAAB465E20E0BBF6001120B3 /* InterimSpace.swift in Sources */,
+				FAAB46B920E0CC84001120B3 /* URLSessionViewController.swift in Sources */,
 				FAAB469C20E0BBF6001120B3 /* Layer.swift in Sources */,
 				FA61F41220DCAAD100339E05 /* MagiMotionTransitionObserver.swift in Sources */,
 				FAAB467F20E0BBF6001120B3 /* TableView.swift in Sources */,
@@ -1490,6 +1525,7 @@
 				FAAB467320E0BBF6001120B3 /* CollectionViewCell.swift in Sources */,
 				FAAB465F20E0BBF6001120B3 /* CollectionView.swift in Sources */,
 				FA61F3D820DCAAD100339E05 /* File.swift in Sources */,
+				FAAB46AD20E0C784001120B3 /* MagiScreen.swift in Sources */,
 				FAAB468020E0BBF6001120B3 /* PulseView.swift in Sources */,
 				FAAB467D20E0BBF6001120B3 /* Shape.swift in Sources */,
 				FA61F3CD20DCAAD100339E05 /* ManagedActionProperty.swift in Sources */,
