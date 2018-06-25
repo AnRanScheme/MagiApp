@@ -99,92 +99,6 @@
 		FA61F41220DCAAD100339E05 /* MagiMotionTransitionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F35C20DCAAD000339E05 /* MagiMotionTransitionObserver.swift */; };
 		FA61F41320DCAAD100339E05 /* MagiMotionAnimationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F35D20DCAAD000339E05 /* MagiMotionAnimationState.swift */; };
 		FA61F41420DCAAD100339E05 /* MagiCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F35F20DCAAD000339E05 /* MagiCycleView.swift */; };
-		FA61F41520DCAAD100339E05 /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F36120DCAAD000339E05 /* Toolbar.swift */; };
-		FA61F41620DCAAD100339E05 /* Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F36220DCAAD000339E05 /* Offset.swift */; };
-		FA61F41720DCAAD100339E05 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F36320DCAAD000339E05 /* TabBar.swift */; };
-		FA61F41820DCAAD100339E05 /* ToolbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F36420DCAAD000339E05 /* ToolbarController.swift */; };
-		FA61F41920DCAAD100339E05 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F36520DCAAD000339E05 /* View.swift */; };
-		FA61F41A20DCAAD100339E05 /* NavigationDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F36620DCAAD000339E05 /* NavigationDrawerController.swift */; };
-		FA61F41B20DCAAD100339E05 /* CollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F36720DCAAD000339E05 /* CollectionViewLayout.swift */; };
-		FA61F41C20DCAAD100339E05 /* DynamicFontType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F36820DCAAD000339E05 /* DynamicFontType.swift */; };
-		FA61F41D20DCAAD100339E05 /* Material+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F36920DCAAD000339E05 /* Material+CALayer.swift */; };
-		FA61F41E20DCAAD100339E05 /* FABMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F36A20DCAAD000339E05 /* FABMenuController.swift */; };
-		FA61F41F20DCAAD100339E05 /* Material+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F36B20DCAAD000339E05 /* Material+UIView.swift */; };
-		FA61F42020DCAAD100339E05 /* InterimSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F36C20DCAAD000339E05 /* InterimSpace.swift */; };
-		FA61F42120DCAAD100339E05 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F36D20DCAAD000339E05 /* CollectionView.swift */; };
-		FA61F42220DCAAD100339E05 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F36E20DCAAD000339E05 /* Icon.swift */; };
-		FA61F42320DCAAD100339E05 /* FABMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F36F20DCAAD000339E05 /* FABMenu.swift */; };
-		FA61F42420DCAAD100339E05 /* SnackbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F37020DCAAD000339E05 /* SnackbarController.swift */; };
-		FA61F42520DCAAD100339E05 /* PulseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F37120DCAAD000339E05 /* PulseAnimation.swift */; };
-		FA61F42620DCAAD100339E05 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F37220DCAAD000339E05 /* NavigationBar.swift */; };
-		FA61F42720DCAAD100339E05 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F37320DCAAD000339E05 /* StatusBarController.swift */; };
-		FA61F42820DCAAD100339E05 /* Material+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F37420DCAAD000339E05 /* Material+Array.swift */; };
-		FA61F42920DCAAD100339E05 /* RobotoFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F37520DCAAD000339E05 /* RobotoFont.swift */; };
-		FA61F42A20DCAAD100339E05 /* HeightPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F37620DCAAD000339E05 /* HeightPreset.swift */; };
-		FA61F42B20DCAAD100339E05 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F37720DCAAD000339E05 /* TableViewCell.swift */; };
-		FA61F42C20DCAAD100339E05 /* Snackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F37820DCAAD000339E05 /* Snackbar.swift */; };
-		FA61F42D20DCAAD100339E05 /* DataSourceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F37920DCAAD000339E05 /* DataSourceItem.swift */; };
-		FA61F42E20DCAAD100339E05 /* FlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F37A20DCAAD000339E05 /* FlatButton.swift */; };
-		FA61F42F20DCAAD100339E05 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F37B20DCAAD000339E05 /* Card.swift */; };
-		FA61F43020DCAAD100339E05 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F37C20DCAAD000339E05 /* Bar.swift */; };
-		FA61F43120DCAAD100339E05 /* BottomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F37D20DCAAD000339E05 /* BottomNavigationController.swift */; };
-		FA61F43220DCAAD100339E05 /* PresenterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F37E20DCAAD000339E05 /* PresenterCard.swift */; };
-		FA61F43320DCAAD100339E05 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F37F20DCAAD000339E05 /* IconButton.swift */; };
-		FA61F43420DCAAD100339E05 /* TabsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F38020DCAAD000339E05 /* TabsController.swift */; };
-		FA61F43520DCAAD100339E05 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F38120DCAAD000339E05 /* CollectionViewCell.swift */; };
-		FA61F43620DCAAD100339E05 /* Depth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F38220DCAAD000339E05 /* Depth.swift */; };
-		FA61F43720DCAAD100339E05 /* TextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F38320DCAAD000339E05 /* TextStorage.swift */; };
-		FA61F43820DCAAD100339E05 /* FABButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F38420DCAAD000339E05 /* FABButton.swift */; };
-		FA61F43920DCAAD100339E05 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F38520DCAAD000339E05 /* SearchBar.swift */; };
-		FA61F43A20DCAAD100339E05 /* Material+UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F38620DCAAD000339E05 /* Material+UIWindow.swift */; };
-		FA61F43B20DCAAD100339E05 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F38720DCAAD000339E05 /* EdgeInsets.swift */; };
-		FA61F43C20DCAAD100339E05 /* ChipBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F38820DCAAD000339E05 /* ChipBar.swift */; };
-		FA61F43D20DCAAD100339E05 /* SearchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F38920DCAAD000339E05 /* SearchBarController.swift */; };
-		FA61F43E20DCAAD100339E05 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F38A20DCAAD000339E05 /* Screen.swift */; };
-		FA61F43F20DCAAD100339E05 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F38B20DCAAD000339E05 /* Shape.swift */; };
-		FA61F44020DCAAD100339E05 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F38C20DCAAD000339E05 /* TableViewController.swift */; };
-		FA61F44120DCAAD100339E05 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F38D20DCAAD000339E05 /* TableView.swift */; };
-		FA61F44220DCAAD100339E05 /* PulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F38E20DCAAD000339E05 /* PulseView.swift */; };
-		FA61F44320DCAAD100339E05 /* Material+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F38F20DCAAD000339E05 /* Material+String.swift */; };
-		FA61F44420DCAAD100339E05 /* ChipBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F39020DCAAD000339E05 /* ChipBarController.swift */; };
-		FA61F44520DCAAD100339E05 /* Gravity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F39120DCAAD000339E05 /* Gravity.swift */; };
-		FA61F44620DCAAD100339E05 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F39220DCAAD000339E05 /* Switch.swift */; };
-		FA61F44720DCAAD100339E05 /* Material+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F39320DCAAD000339E05 /* Material+UIViewController.swift */; };
-		FA61F44820DCAAD100339E05 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F39420DCAAD000339E05 /* TextField.swift */; };
-		FA61F44920DCAAD100339E05 /* Material+NSMutableAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F39520DCAAD000339E05 /* Material+NSMutableAttributedString.swift */; };
-		FA61F44A20DCAAD100339E05 /* ImageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F39620DCAAD000339E05 /* ImageCard.swift */; };
-		FA61F44B20DCAAD100339E05 /* Material+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F39720DCAAD000339E05 /* Material+UIImage.swift */; };
-		FA61F44C20DCAAD100339E05 /* CardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F39820DCAAD000339E05 /* CardCollectionViewController.swift */; };
-		FA61F44D20DCAAD100339E05 /* Material+MotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F39920DCAAD000339E05 /* Material+MotionAnimation.swift */; };
-		FA61F44E20DCAAD100339E05 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F39A20DCAAD000339E05 /* TextView.swift */; };
-		FA61F44F20DCAAD100339E05 /* MagiMaterialAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA61F39B20DCAAD000339E05 /* MagiMaterialAssets.xcassets */; };
-		FA61F45020DCAAD100339E05 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F39C20DCAAD000339E05 /* Grid.swift */; };
-		FA61F45120DCAAD100339E05 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F39D20DCAAD000339E05 /* Device.swift */; };
-		FA61F45220DCAAD100339E05 /* ErrorTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F39E20DCAAD000339E05 /* ErrorTextField.swift */; };
-		FA61F45320DCAAD100339E05 /* Divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F39F20DCAAD000339E05 /* Divider.swift */; };
-		FA61F45420DCAAD100339E05 /* TransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F3A020DCAAD000339E05 /* TransitionController.swift */; };
-		FA61F45520DCAAD100339E05 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F3A120DCAAD000339E05 /* Border.swift */; };
-		FA61F45620DCAAD100339E05 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F3A220DCAAD000339E05 /* Layout.swift */; };
-		FA61F45720DCAAD100339E05 /* RaisedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F3A320DCAAD000339E05 /* RaisedButton.swift */; };
-		FA61F45820DCAAD100339E05 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F3A420DCAAD000339E05 /* Application.swift */; };
-		FA61F45920DCAAD100339E05 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F3A520DCAAD000339E05 /* Font.swift */; };
-		FA61F45A20DCAAD100339E05 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F3A620DCAAD000339E05 /* SpringAnimation.swift */; };
-		FA61F45B20DCAAD100339E05 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F3A720DCAAD000339E05 /* CardCollectionViewCell.swift */; };
-		FA61F45C20DCAAD100339E05 /* NavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F3A820DCAAD000339E05 /* NavigationItem.swift */; };
-		FA61F45D20DCAAD100339E05 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F3A920DCAAD000339E05 /* Button.swift */; };
-		FA61F45E20DCAAD100339E05 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F3AA20DCAAD000339E05 /* Layer.swift */; };
-		FA61F45F20DCAAD100339E05 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F3AB20DCAAD000339E05 /* Color.swift */; };
-		FA61F46020DCAAD100339E05 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F3AC20DCAAD000339E05 /* NavigationController.swift */; };
-		FA61F46120DCAAD100339E05 /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F3AD20DCAAD000339E05 /* CornerRadius.swift */; };
-		FA61F46220DCAAD100339E05 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F3AE20DCAAD000339E05 /* CollectionReusableView.swift */; };
-		FA61F46320DCAAD100339E05 /* Material+UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F3AF20DCAAD000339E05 /* Material+UIFont.swift */; };
-		FA61F46420DCAAD100339E05 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F3B020DCAAD000339E05 /* CollectionViewController.swift */; };
-		FA61F46520DCAAD100339E05 /* DisplayStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F3B120DCAAD000339E05 /* DisplayStyle.swift */; };
-		FA61F46620DCAAD100339E05 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA61F3B420DCAAD000339E05 /* Roboto-Medium.ttf */; };
-		FA61F46720DCAAD100339E05 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA61F3B520DCAAD000339E05 /* Roboto-Light.ttf */; };
-		FA61F46820DCAAD100339E05 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA61F3B620DCAAD000339E05 /* Roboto-Regular.ttf */; };
-		FA61F46920DCAAD100339E05 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA61F3B720DCAAD000339E05 /* Roboto-Bold.ttf */; };
-		FA61F46A20DCAAD100339E05 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA61F3B820DCAAD000339E05 /* Roboto-Thin.ttf */; };
 		FA61F46B20DCAAD100339E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA61F3BA20DCAAD000339E05 /* Assets.xcassets */; };
 		FA61F46D20DCAAD100339E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA61F3BD20DCAAD000339E05 /* Main.storyboard */; };
 		FA61F46E20DCAAD100339E05 /* tapMenu.json in Resources */ = {isa = PBXBuildFile; fileRef = FA61F3BF20DCAAD000339E05 /* tapMenu.json */; };
@@ -199,6 +113,93 @@
 		FA61F49520DCC19800339E05 /* MagiNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F49420DCC19800339E05 /* MagiNewsViewController.swift */; };
 		FA61F49720DCC1AA00339E05 /* MagiMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F49620DCC1AA00339E05 /* MagiMineViewController.swift */; };
 		FA61F49D20DCC46A00339E05 /* MagiCommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA61F49C20DCC46A00339E05 /* MagiCommunityViewController.swift */; };
+		FAAB465320E0BBF6001120B3 /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB45FB20E0BBF6001120B3 /* Toolbar.swift */; };
+		FAAB465420E0BBF6001120B3 /* Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB45FC20E0BBF6001120B3 /* Offset.swift */; };
+		FAAB465520E0BBF6001120B3 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB45FD20E0BBF6001120B3 /* TabBar.swift */; };
+		FAAB465620E0BBF6001120B3 /* ToolbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB45FE20E0BBF6001120B3 /* ToolbarController.swift */; };
+		FAAB465720E0BBF6001120B3 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB45FF20E0BBF6001120B3 /* View.swift */; };
+		FAAB465820E0BBF6001120B3 /* NavigationDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB460020E0BBF6001120B3 /* NavigationDrawerController.swift */; };
+		FAAB465920E0BBF6001120B3 /* CollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB460120E0BBF6001120B3 /* CollectionViewLayout.swift */; };
+		FAAB465A20E0BBF6001120B3 /* DynamicFontType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB460220E0BBF6001120B3 /* DynamicFontType.swift */; };
+		FAAB465B20E0BBF6001120B3 /* Material+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB460320E0BBF6001120B3 /* Material+CALayer.swift */; };
+		FAAB465C20E0BBF6001120B3 /* FABMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB460420E0BBF6001120B3 /* FABMenuController.swift */; };
+		FAAB465D20E0BBF6001120B3 /* Material+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB460520E0BBF6001120B3 /* Material+UIView.swift */; };
+		FAAB465E20E0BBF6001120B3 /* InterimSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB460620E0BBF6001120B3 /* InterimSpace.swift */; };
+		FAAB465F20E0BBF6001120B3 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB460720E0BBF6001120B3 /* CollectionView.swift */; };
+		FAAB466020E0BBF6001120B3 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB460820E0BBF6001120B3 /* Icon.swift */; };
+		FAAB466120E0BBF6001120B3 /* FABMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB460920E0BBF6001120B3 /* FABMenu.swift */; };
+		FAAB466220E0BBF6001120B3 /* SnackbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB460A20E0BBF6001120B3 /* SnackbarController.swift */; };
+		FAAB466320E0BBF6001120B3 /* PulseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB460B20E0BBF6001120B3 /* PulseAnimation.swift */; };
+		FAAB466420E0BBF6001120B3 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB460C20E0BBF6001120B3 /* NavigationBar.swift */; };
+		FAAB466520E0BBF6001120B3 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB460D20E0BBF6001120B3 /* StatusBarController.swift */; };
+		FAAB466620E0BBF6001120B3 /* Material+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB460E20E0BBF6001120B3 /* Material+Array.swift */; };
+		FAAB466720E0BBF6001120B3 /* RobotoFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB460F20E0BBF6001120B3 /* RobotoFont.swift */; };
+		FAAB466820E0BBF6001120B3 /* HeightPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB461020E0BBF6001120B3 /* HeightPreset.swift */; };
+		FAAB466920E0BBF6001120B3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB461120E0BBF6001120B3 /* TableViewCell.swift */; };
+		FAAB466A20E0BBF6001120B3 /* Snackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB461220E0BBF6001120B3 /* Snackbar.swift */; };
+		FAAB466B20E0BBF6001120B3 /* DataSourceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB461320E0BBF6001120B3 /* DataSourceItem.swift */; };
+		FAAB466C20E0BBF6001120B3 /* FlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB461420E0BBF6001120B3 /* FlatButton.swift */; };
+		FAAB466D20E0BBF6001120B3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB461520E0BBF6001120B3 /* Card.swift */; };
+		FAAB466E20E0BBF6001120B3 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB461620E0BBF6001120B3 /* Bar.swift */; };
+		FAAB466F20E0BBF6001120B3 /* BottomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB461720E0BBF6001120B3 /* BottomNavigationController.swift */; };
+		FAAB467020E0BBF6001120B3 /* PresenterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB461820E0BBF6001120B3 /* PresenterCard.swift */; };
+		FAAB467120E0BBF6001120B3 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB461920E0BBF6001120B3 /* IconButton.swift */; };
+		FAAB467220E0BBF6001120B3 /* TabsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB461A20E0BBF6001120B3 /* TabsController.swift */; };
+		FAAB467320E0BBF6001120B3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB461B20E0BBF6001120B3 /* CollectionViewCell.swift */; };
+		FAAB467420E0BBF6001120B3 /* Depth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB461C20E0BBF6001120B3 /* Depth.swift */; };
+		FAAB467520E0BBF6001120B3 /* TextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB461D20E0BBF6001120B3 /* TextStorage.swift */; };
+		FAAB467620E0BBF6001120B3 /* FABButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB461E20E0BBF6001120B3 /* FABButton.swift */; };
+		FAAB467720E0BBF6001120B3 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB461F20E0BBF6001120B3 /* SearchBar.swift */; };
+		FAAB467820E0BBF6001120B3 /* Material+UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB462020E0BBF6001120B3 /* Material+UIWindow.swift */; };
+		FAAB467920E0BBF6001120B3 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB462120E0BBF6001120B3 /* EdgeInsets.swift */; };
+		FAAB467A20E0BBF6001120B3 /* ChipBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB462220E0BBF6001120B3 /* ChipBar.swift */; };
+		FAAB467B20E0BBF6001120B3 /* SearchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB462320E0BBF6001120B3 /* SearchBarController.swift */; };
+		FAAB467C20E0BBF6001120B3 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB462420E0BBF6001120B3 /* Screen.swift */; };
+		FAAB467D20E0BBF6001120B3 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB462520E0BBF6001120B3 /* Shape.swift */; };
+		FAAB467E20E0BBF6001120B3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB462620E0BBF6001120B3 /* TableViewController.swift */; };
+		FAAB467F20E0BBF6001120B3 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB462720E0BBF6001120B3 /* TableView.swift */; };
+		FAAB468020E0BBF6001120B3 /* PulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB462820E0BBF6001120B3 /* PulseView.swift */; };
+		FAAB468120E0BBF6001120B3 /* Material+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB462920E0BBF6001120B3 /* Material+String.swift */; };
+		FAAB468220E0BBF6001120B3 /* ChipBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB462A20E0BBF6001120B3 /* ChipBarController.swift */; };
+		FAAB468320E0BBF6001120B3 /* Gravity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB462B20E0BBF6001120B3 /* Gravity.swift */; };
+		FAAB468420E0BBF6001120B3 /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB462C20E0BBF6001120B3 /* Switch.swift */; };
+		FAAB468520E0BBF6001120B3 /* Material+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB462D20E0BBF6001120B3 /* Material+UIViewController.swift */; };
+		FAAB468620E0BBF6001120B3 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB462E20E0BBF6001120B3 /* TextField.swift */; };
+		FAAB468720E0BBF6001120B3 /* Material+NSMutableAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB462F20E0BBF6001120B3 /* Material+NSMutableAttributedString.swift */; };
+		FAAB468820E0BBF6001120B3 /* ImageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB463020E0BBF6001120B3 /* ImageCard.swift */; };
+		FAAB468920E0BBF6001120B3 /* Material+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB463120E0BBF6001120B3 /* Material+UIImage.swift */; };
+		FAAB468A20E0BBF6001120B3 /* CardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB463220E0BBF6001120B3 /* CardCollectionViewController.swift */; };
+		FAAB468B20E0BBF6001120B3 /* Material+MotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB463320E0BBF6001120B3 /* Material+MotionAnimation.swift */; };
+		FAAB468C20E0BBF6001120B3 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB463420E0BBF6001120B3 /* TextView.swift */; };
+		FAAB468D20E0BBF6001120B3 /* MagiMaterialAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAB463520E0BBF6001120B3 /* MagiMaterialAssets.xcassets */; };
+		FAAB468E20E0BBF6001120B3 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB463620E0BBF6001120B3 /* Grid.swift */; };
+		FAAB468F20E0BBF6001120B3 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB463720E0BBF6001120B3 /* Device.swift */; };
+		FAAB469020E0BBF6001120B3 /* ErrorTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB463820E0BBF6001120B3 /* ErrorTextField.swift */; };
+		FAAB469120E0BBF6001120B3 /* Divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB463920E0BBF6001120B3 /* Divider.swift */; };
+		FAAB469220E0BBF6001120B3 /* TransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB463A20E0BBF6001120B3 /* TransitionController.swift */; };
+		FAAB469320E0BBF6001120B3 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB463B20E0BBF6001120B3 /* Border.swift */; };
+		FAAB469420E0BBF6001120B3 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB463C20E0BBF6001120B3 /* Layout.swift */; };
+		FAAB469520E0BBF6001120B3 /* RaisedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB463D20E0BBF6001120B3 /* RaisedButton.swift */; };
+		FAAB469620E0BBF6001120B3 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB463E20E0BBF6001120B3 /* Application.swift */; };
+		FAAB469720E0BBF6001120B3 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB463F20E0BBF6001120B3 /* Font.swift */; };
+		FAAB469820E0BBF6001120B3 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB464020E0BBF6001120B3 /* SpringAnimation.swift */; };
+		FAAB469920E0BBF6001120B3 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB464120E0BBF6001120B3 /* CardCollectionViewCell.swift */; };
+		FAAB469A20E0BBF6001120B3 /* NavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB464220E0BBF6001120B3 /* NavigationItem.swift */; };
+		FAAB469B20E0BBF6001120B3 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB464320E0BBF6001120B3 /* Button.swift */; };
+		FAAB469C20E0BBF6001120B3 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB464420E0BBF6001120B3 /* Layer.swift */; };
+		FAAB469D20E0BBF6001120B3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB464520E0BBF6001120B3 /* Color.swift */; };
+		FAAB469E20E0BBF6001120B3 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB464620E0BBF6001120B3 /* NavigationController.swift */; };
+		FAAB469F20E0BBF6001120B3 /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB464720E0BBF6001120B3 /* CornerRadius.swift */; };
+		FAAB46A020E0BBF6001120B3 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB464820E0BBF6001120B3 /* CollectionReusableView.swift */; };
+		FAAB46A120E0BBF6001120B3 /* Material+UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB464920E0BBF6001120B3 /* Material+UIFont.swift */; };
+		FAAB46A220E0BBF6001120B3 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB464A20E0BBF6001120B3 /* CollectionViewController.swift */; };
+		FAAB46A320E0BBF6001120B3 /* DisplayStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB464B20E0BBF6001120B3 /* DisplayStyle.swift */; };
+		FAAB46A420E0BBF6001120B3 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAAB464E20E0BBF6001120B3 /* Roboto-Medium.ttf */; };
+		FAAB46A520E0BBF6001120B3 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAAB464F20E0BBF6001120B3 /* Roboto-Light.ttf */; };
+		FAAB46A620E0BBF6001120B3 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAAB465020E0BBF6001120B3 /* Roboto-Regular.ttf */; };
+		FAAB46A720E0BBF6001120B3 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAAB465120E0BBF6001120B3 /* Roboto-Bold.ttf */; };
+		FAAB46A820E0BBF6001120B3 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAAB465220E0BBF6001120B3 /* Roboto-Thin.ttf */; };
+		FAAB46AB20E0C08D001120B3 /* MagiApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB46AA20E0C08D001120B3 /* MagiApplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -323,92 +324,6 @@
 		FA61F35C20DCAAD000339E05 /* MagiMotionTransitionObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiMotionTransitionObserver.swift; sourceTree = "<group>"; };
 		FA61F35D20DCAAD000339E05 /* MagiMotionAnimationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiMotionAnimationState.swift; sourceTree = "<group>"; };
 		FA61F35F20DCAAD000339E05 /* MagiCycleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagiCycleView.swift; sourceTree = "<group>"; };
-		FA61F36120DCAAD000339E05 /* Toolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toolbar.swift; sourceTree = "<group>"; };
-		FA61F36220DCAAD000339E05 /* Offset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offset.swift; sourceTree = "<group>"; };
-		FA61F36320DCAAD000339E05 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
-		FA61F36420DCAAD000339E05 /* ToolbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarController.swift; sourceTree = "<group>"; };
-		FA61F36520DCAAD000339E05 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		FA61F36620DCAAD000339E05 /* NavigationDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDrawerController.swift; sourceTree = "<group>"; };
-		FA61F36720DCAAD000339E05 /* CollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewLayout.swift; sourceTree = "<group>"; };
-		FA61F36820DCAAD000339E05 /* DynamicFontType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicFontType.swift; sourceTree = "<group>"; };
-		FA61F36920DCAAD000339E05 /* Material+CALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+CALayer.swift"; sourceTree = "<group>"; };
-		FA61F36A20DCAAD000339E05 /* FABMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FABMenuController.swift; sourceTree = "<group>"; };
-		FA61F36B20DCAAD000339E05 /* Material+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+UIView.swift"; sourceTree = "<group>"; };
-		FA61F36C20DCAAD000339E05 /* InterimSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterimSpace.swift; sourceTree = "<group>"; };
-		FA61F36D20DCAAD000339E05 /* CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
-		FA61F36E20DCAAD000339E05 /* Icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
-		FA61F36F20DCAAD000339E05 /* FABMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FABMenu.swift; sourceTree = "<group>"; };
-		FA61F37020DCAAD000339E05 /* SnackbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnackbarController.swift; sourceTree = "<group>"; };
-		FA61F37120DCAAD000339E05 /* PulseAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseAnimation.swift; sourceTree = "<group>"; };
-		FA61F37220DCAAD000339E05 /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
-		FA61F37320DCAAD000339E05 /* StatusBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
-		FA61F37420DCAAD000339E05 /* Material+Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+Array.swift"; sourceTree = "<group>"; };
-		FA61F37520DCAAD000339E05 /* RobotoFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotoFont.swift; sourceTree = "<group>"; };
-		FA61F37620DCAAD000339E05 /* HeightPreset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeightPreset.swift; sourceTree = "<group>"; };
-		FA61F37720DCAAD000339E05 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		FA61F37820DCAAD000339E05 /* Snackbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snackbar.swift; sourceTree = "<group>"; };
-		FA61F37920DCAAD000339E05 /* DataSourceItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceItem.swift; sourceTree = "<group>"; };
-		FA61F37A20DCAAD000339E05 /* FlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatButton.swift; sourceTree = "<group>"; };
-		FA61F37B20DCAAD000339E05 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		FA61F37C20DCAAD000339E05 /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
-		FA61F37D20DCAAD000339E05 /* BottomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomNavigationController.swift; sourceTree = "<group>"; };
-		FA61F37E20DCAAD000339E05 /* PresenterCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterCard.swift; sourceTree = "<group>"; };
-		FA61F37F20DCAAD000339E05 /* IconButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
-		FA61F38020DCAAD000339E05 /* TabsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabsController.swift; sourceTree = "<group>"; };
-		FA61F38120DCAAD000339E05 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
-		FA61F38220DCAAD000339E05 /* Depth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Depth.swift; sourceTree = "<group>"; };
-		FA61F38320DCAAD000339E05 /* TextStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStorage.swift; sourceTree = "<group>"; };
-		FA61F38420DCAAD000339E05 /* FABButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FABButton.swift; sourceTree = "<group>"; };
-		FA61F38520DCAAD000339E05 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
-		FA61F38620DCAAD000339E05 /* Material+UIWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+UIWindow.swift"; sourceTree = "<group>"; };
-		FA61F38720DCAAD000339E05 /* EdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
-		FA61F38820DCAAD000339E05 /* ChipBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipBar.swift; sourceTree = "<group>"; };
-		FA61F38920DCAAD000339E05 /* SearchBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarController.swift; sourceTree = "<group>"; };
-		FA61F38A20DCAAD000339E05 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
-		FA61F38B20DCAAD000339E05 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
-		FA61F38C20DCAAD000339E05 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		FA61F38D20DCAAD000339E05 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
-		FA61F38E20DCAAD000339E05 /* PulseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseView.swift; sourceTree = "<group>"; };
-		FA61F38F20DCAAD000339E05 /* Material+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+String.swift"; sourceTree = "<group>"; };
-		FA61F39020DCAAD000339E05 /* ChipBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipBarController.swift; sourceTree = "<group>"; };
-		FA61F39120DCAAD000339E05 /* Gravity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gravity.swift; sourceTree = "<group>"; };
-		FA61F39220DCAAD000339E05 /* Switch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
-		FA61F39320DCAAD000339E05 /* Material+UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+UIViewController.swift"; sourceTree = "<group>"; };
-		FA61F39420DCAAD000339E05 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
-		FA61F39520DCAAD000339E05 /* Material+NSMutableAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+NSMutableAttributedString.swift"; sourceTree = "<group>"; };
-		FA61F39620DCAAD000339E05 /* ImageCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCard.swift; sourceTree = "<group>"; };
-		FA61F39720DCAAD000339E05 /* Material+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+UIImage.swift"; sourceTree = "<group>"; };
-		FA61F39820DCAAD000339E05 /* CardCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewController.swift; sourceTree = "<group>"; };
-		FA61F39920DCAAD000339E05 /* Material+MotionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+MotionAnimation.swift"; sourceTree = "<group>"; };
-		FA61F39A20DCAAD000339E05 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
-		FA61F39B20DCAAD000339E05 /* MagiMaterialAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MagiMaterialAssets.xcassets; sourceTree = "<group>"; };
-		FA61F39C20DCAAD000339E05 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
-		FA61F39D20DCAAD000339E05 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
-		FA61F39E20DCAAD000339E05 /* ErrorTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorTextField.swift; sourceTree = "<group>"; };
-		FA61F39F20DCAAD000339E05 /* Divider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Divider.swift; sourceTree = "<group>"; };
-		FA61F3A020DCAAD000339E05 /* TransitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionController.swift; sourceTree = "<group>"; };
-		FA61F3A120DCAAD000339E05 /* Border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
-		FA61F3A220DCAAD000339E05 /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
-		FA61F3A320DCAAD000339E05 /* RaisedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaisedButton.swift; sourceTree = "<group>"; };
-		FA61F3A420DCAAD000339E05 /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
-		FA61F3A520DCAAD000339E05 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
-		FA61F3A620DCAAD000339E05 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
-		FA61F3A720DCAAD000339E05 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
-		FA61F3A820DCAAD000339E05 /* NavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationItem.swift; sourceTree = "<group>"; };
-		FA61F3A920DCAAD000339E05 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
-		FA61F3AA20DCAAD000339E05 /* Layer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
-		FA61F3AB20DCAAD000339E05 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		FA61F3AC20DCAAD000339E05 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
-		FA61F3AD20DCAAD000339E05 /* CornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
-		FA61F3AE20DCAAD000339E05 /* CollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
-		FA61F3AF20DCAAD000339E05 /* Material+UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+UIFont.swift"; sourceTree = "<group>"; };
-		FA61F3B020DCAAD000339E05 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
-		FA61F3B120DCAAD000339E05 /* DisplayStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayStyle.swift; sourceTree = "<group>"; };
-		FA61F3B420DCAAD000339E05 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
-		FA61F3B520DCAAD000339E05 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
-		FA61F3B620DCAAD000339E05 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		FA61F3B720DCAAD000339E05 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		FA61F3B820DCAAD000339E05 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		FA61F3BA20DCAAD000339E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA61F3BE20DCAAD000339E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA61F3BF20DCAAD000339E05 /* tapMenu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tapMenu.json; sourceTree = "<group>"; };
@@ -423,6 +338,93 @@
 		FA61F49420DCC19800339E05 /* MagiNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiNewsViewController.swift; sourceTree = "<group>"; };
 		FA61F49620DCC1AA00339E05 /* MagiMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiMineViewController.swift; sourceTree = "<group>"; };
 		FA61F49C20DCC46A00339E05 /* MagiCommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiCommunityViewController.swift; sourceTree = "<group>"; };
+		FAAB45FB20E0BBF6001120B3 /* Toolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toolbar.swift; sourceTree = "<group>"; };
+		FAAB45FC20E0BBF6001120B3 /* Offset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offset.swift; sourceTree = "<group>"; };
+		FAAB45FD20E0BBF6001120B3 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		FAAB45FE20E0BBF6001120B3 /* ToolbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarController.swift; sourceTree = "<group>"; };
+		FAAB45FF20E0BBF6001120B3 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		FAAB460020E0BBF6001120B3 /* NavigationDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationDrawerController.swift; sourceTree = "<group>"; };
+		FAAB460120E0BBF6001120B3 /* CollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewLayout.swift; sourceTree = "<group>"; };
+		FAAB460220E0BBF6001120B3 /* DynamicFontType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicFontType.swift; sourceTree = "<group>"; };
+		FAAB460320E0BBF6001120B3 /* Material+CALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+CALayer.swift"; sourceTree = "<group>"; };
+		FAAB460420E0BBF6001120B3 /* FABMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FABMenuController.swift; sourceTree = "<group>"; };
+		FAAB460520E0BBF6001120B3 /* Material+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+UIView.swift"; sourceTree = "<group>"; };
+		FAAB460620E0BBF6001120B3 /* InterimSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterimSpace.swift; sourceTree = "<group>"; };
+		FAAB460720E0BBF6001120B3 /* CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		FAAB460820E0BBF6001120B3 /* Icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		FAAB460920E0BBF6001120B3 /* FABMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FABMenu.swift; sourceTree = "<group>"; };
+		FAAB460A20E0BBF6001120B3 /* SnackbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnackbarController.swift; sourceTree = "<group>"; };
+		FAAB460B20E0BBF6001120B3 /* PulseAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseAnimation.swift; sourceTree = "<group>"; };
+		FAAB460C20E0BBF6001120B3 /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		FAAB460D20E0BBF6001120B3 /* StatusBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		FAAB460E20E0BBF6001120B3 /* Material+Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+Array.swift"; sourceTree = "<group>"; };
+		FAAB460F20E0BBF6001120B3 /* RobotoFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotoFont.swift; sourceTree = "<group>"; };
+		FAAB461020E0BBF6001120B3 /* HeightPreset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeightPreset.swift; sourceTree = "<group>"; };
+		FAAB461120E0BBF6001120B3 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FAAB461220E0BBF6001120B3 /* Snackbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snackbar.swift; sourceTree = "<group>"; };
+		FAAB461320E0BBF6001120B3 /* DataSourceItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceItem.swift; sourceTree = "<group>"; };
+		FAAB461420E0BBF6001120B3 /* FlatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatButton.swift; sourceTree = "<group>"; };
+		FAAB461520E0BBF6001120B3 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		FAAB461620E0BBF6001120B3 /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		FAAB461720E0BBF6001120B3 /* BottomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomNavigationController.swift; sourceTree = "<group>"; };
+		FAAB461820E0BBF6001120B3 /* PresenterCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterCard.swift; sourceTree = "<group>"; };
+		FAAB461920E0BBF6001120B3 /* IconButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		FAAB461A20E0BBF6001120B3 /* TabsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabsController.swift; sourceTree = "<group>"; };
+		FAAB461B20E0BBF6001120B3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		FAAB461C20E0BBF6001120B3 /* Depth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Depth.swift; sourceTree = "<group>"; };
+		FAAB461D20E0BBF6001120B3 /* TextStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStorage.swift; sourceTree = "<group>"; };
+		FAAB461E20E0BBF6001120B3 /* FABButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FABButton.swift; sourceTree = "<group>"; };
+		FAAB461F20E0BBF6001120B3 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		FAAB462020E0BBF6001120B3 /* Material+UIWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+UIWindow.swift"; sourceTree = "<group>"; };
+		FAAB462120E0BBF6001120B3 /* EdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		FAAB462220E0BBF6001120B3 /* ChipBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipBar.swift; sourceTree = "<group>"; };
+		FAAB462320E0BBF6001120B3 /* SearchBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarController.swift; sourceTree = "<group>"; };
+		FAAB462420E0BBF6001120B3 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		FAAB462520E0BBF6001120B3 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		FAAB462620E0BBF6001120B3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		FAAB462720E0BBF6001120B3 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		FAAB462820E0BBF6001120B3 /* PulseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseView.swift; sourceTree = "<group>"; };
+		FAAB462920E0BBF6001120B3 /* Material+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+String.swift"; sourceTree = "<group>"; };
+		FAAB462A20E0BBF6001120B3 /* ChipBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipBarController.swift; sourceTree = "<group>"; };
+		FAAB462B20E0BBF6001120B3 /* Gravity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gravity.swift; sourceTree = "<group>"; };
+		FAAB462C20E0BBF6001120B3 /* Switch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		FAAB462D20E0BBF6001120B3 /* Material+UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+UIViewController.swift"; sourceTree = "<group>"; };
+		FAAB462E20E0BBF6001120B3 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		FAAB462F20E0BBF6001120B3 /* Material+NSMutableAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+NSMutableAttributedString.swift"; sourceTree = "<group>"; };
+		FAAB463020E0BBF6001120B3 /* ImageCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCard.swift; sourceTree = "<group>"; };
+		FAAB463120E0BBF6001120B3 /* Material+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+UIImage.swift"; sourceTree = "<group>"; };
+		FAAB463220E0BBF6001120B3 /* CardCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewController.swift; sourceTree = "<group>"; };
+		FAAB463320E0BBF6001120B3 /* Material+MotionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+MotionAnimation.swift"; sourceTree = "<group>"; };
+		FAAB463420E0BBF6001120B3 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		FAAB463520E0BBF6001120B3 /* MagiMaterialAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MagiMaterialAssets.xcassets; sourceTree = "<group>"; };
+		FAAB463620E0BBF6001120B3 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		FAAB463720E0BBF6001120B3 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		FAAB463820E0BBF6001120B3 /* ErrorTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorTextField.swift; sourceTree = "<group>"; };
+		FAAB463920E0BBF6001120B3 /* Divider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Divider.swift; sourceTree = "<group>"; };
+		FAAB463A20E0BBF6001120B3 /* TransitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionController.swift; sourceTree = "<group>"; };
+		FAAB463B20E0BBF6001120B3 /* Border.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
+		FAAB463C20E0BBF6001120B3 /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		FAAB463D20E0BBF6001120B3 /* RaisedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaisedButton.swift; sourceTree = "<group>"; };
+		FAAB463E20E0BBF6001120B3 /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		FAAB463F20E0BBF6001120B3 /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		FAAB464020E0BBF6001120B3 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		FAAB464120E0BBF6001120B3 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		FAAB464220E0BBF6001120B3 /* NavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationItem.swift; sourceTree = "<group>"; };
+		FAAB464320E0BBF6001120B3 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		FAAB464420E0BBF6001120B3 /* Layer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		FAAB464520E0BBF6001120B3 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		FAAB464620E0BBF6001120B3 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		FAAB464720E0BBF6001120B3 /* CornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
+		FAAB464820E0BBF6001120B3 /* CollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
+		FAAB464920E0BBF6001120B3 /* Material+UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+UIFont.swift"; sourceTree = "<group>"; };
+		FAAB464A20E0BBF6001120B3 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		FAAB464B20E0BBF6001120B3 /* DisplayStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayStyle.swift; sourceTree = "<group>"; };
+		FAAB464E20E0BBF6001120B3 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		FAAB464F20E0BBF6001120B3 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		FAAB465020E0BBF6001120B3 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		FAAB465120E0BBF6001120B3 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		FAAB465220E0BBF6001120B3 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		FAAB46AA20E0C08D001120B3 /* MagiApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiApplication.swift; sourceTree = "<group>"; };
 		FF7AEA5F27B6C1D940F8D12D /* Pods-MagiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagiApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagiApp/Pods-MagiApp.debug.xcconfig"; sourceTree = "<group>"; };
 		FF831C980DA937B7A859F03C /* Pods-MagiAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagiAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagiAppUITests/Pods-MagiAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -636,10 +638,11 @@
 		FA61F30A20DCAAD000339E05 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				FA61F30B20DCAAD000339E05 /* MagiGraph */,
+				FAAB46A920E0BC06001120B3 /* MagiMaterial */,
+				FAAB45FA20E0BBF6001120B3 /* Material */,
 				FA61F32C20DCAAD000339E05 /* MagiMotion */,
+				FA61F30B20DCAAD000339E05 /* MagiGraph */,
 				FA61F35E20DCAAD000339E05 /* MagiCycleView */,
-				FA61F36020DCAAD000339E05 /* MagiMaterial */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -687,15 +690,11 @@
 			isa = PBXGroup;
 			children = (
 				FA61F32D20DCAAD000339E05 /* MagiMotionInfo.plist */,
-				FA61F32E20DCAAD000339E05 /* Preprocessors */,
-				FA61F33720DCAAD000339E05 /* Transition */,
+				FA61F35620DCAAD000339E05 /* MagiMotion.h */,
 				FA61F34220DCAAD000339E05 /* MagiMotionContext.swift */,
 				FA61F34320DCAAD000339E05 /* MagiMotionAnimation.swift */,
 				FA61F34420DCAAD000339E05 /* MagiMotionCAAnimation.swift */,
 				FA61F34520DCAAD000339E05 /* MagiMotionModifier.swift */,
-				FA61F34620DCAAD000339E05 /* Animator */,
-				FA61F34C20DCAAD000339E05 /* Extensions */,
-				FA61F35620DCAAD000339E05 /* MagiMotion.h */,
 				FA61F35720DCAAD000339E05 /* MagiMotionCoordinateSpace.swift */,
 				FA61F35820DCAAD000339E05 /* MagiMotionSnapshotType.swift */,
 				FA61F35920DCAAD000339E05 /* MagiMotionTargetState.swift */,
@@ -703,6 +702,10 @@
 				FA61F35B20DCAAD000339E05 /* MagiMotionPlugin.swift */,
 				FA61F35C20DCAAD000339E05 /* MagiMotionTransitionObserver.swift */,
 				FA61F35D20DCAAD000339E05 /* MagiMotionAnimationState.swift */,
+				FA61F34C20DCAAD000339E05 /* Extensions */,
+				FA61F34620DCAAD000339E05 /* Animator */,
+				FA61F32E20DCAAD000339E05 /* Preprocessors */,
+				FA61F33720DCAAD000339E05 /* Transition */,
 			);
 			path = MagiMotion;
 			sourceTree = "<group>";
@@ -773,115 +776,6 @@
 				FA61F35F20DCAAD000339E05 /* MagiCycleView.swift */,
 			);
 			path = MagiCycleView;
-			sourceTree = "<group>";
-		};
-		FA61F36020DCAAD000339E05 /* MagiMaterial */ = {
-			isa = PBXGroup;
-			children = (
-				FA61F36120DCAAD000339E05 /* Toolbar.swift */,
-				FA61F36220DCAAD000339E05 /* Offset.swift */,
-				FA61F36320DCAAD000339E05 /* TabBar.swift */,
-				FA61F36420DCAAD000339E05 /* ToolbarController.swift */,
-				FA61F36520DCAAD000339E05 /* View.swift */,
-				FA61F36620DCAAD000339E05 /* NavigationDrawerController.swift */,
-				FA61F36720DCAAD000339E05 /* CollectionViewLayout.swift */,
-				FA61F36820DCAAD000339E05 /* DynamicFontType.swift */,
-				FA61F36920DCAAD000339E05 /* Material+CALayer.swift */,
-				FA61F36A20DCAAD000339E05 /* FABMenuController.swift */,
-				FA61F36B20DCAAD000339E05 /* Material+UIView.swift */,
-				FA61F36C20DCAAD000339E05 /* InterimSpace.swift */,
-				FA61F36D20DCAAD000339E05 /* CollectionView.swift */,
-				FA61F36E20DCAAD000339E05 /* Icon.swift */,
-				FA61F36F20DCAAD000339E05 /* FABMenu.swift */,
-				FA61F37020DCAAD000339E05 /* SnackbarController.swift */,
-				FA61F37120DCAAD000339E05 /* PulseAnimation.swift */,
-				FA61F37220DCAAD000339E05 /* NavigationBar.swift */,
-				FA61F37320DCAAD000339E05 /* StatusBarController.swift */,
-				FA61F37420DCAAD000339E05 /* Material+Array.swift */,
-				FA61F37520DCAAD000339E05 /* RobotoFont.swift */,
-				FA61F37620DCAAD000339E05 /* HeightPreset.swift */,
-				FA61F37720DCAAD000339E05 /* TableViewCell.swift */,
-				FA61F37820DCAAD000339E05 /* Snackbar.swift */,
-				FA61F37920DCAAD000339E05 /* DataSourceItem.swift */,
-				FA61F37A20DCAAD000339E05 /* FlatButton.swift */,
-				FA61F37B20DCAAD000339E05 /* Card.swift */,
-				FA61F37C20DCAAD000339E05 /* Bar.swift */,
-				FA61F37D20DCAAD000339E05 /* BottomNavigationController.swift */,
-				FA61F37E20DCAAD000339E05 /* PresenterCard.swift */,
-				FA61F37F20DCAAD000339E05 /* IconButton.swift */,
-				FA61F38020DCAAD000339E05 /* TabsController.swift */,
-				FA61F38120DCAAD000339E05 /* CollectionViewCell.swift */,
-				FA61F38220DCAAD000339E05 /* Depth.swift */,
-				FA61F38320DCAAD000339E05 /* TextStorage.swift */,
-				FA61F38420DCAAD000339E05 /* FABButton.swift */,
-				FA61F38520DCAAD000339E05 /* SearchBar.swift */,
-				FA61F38620DCAAD000339E05 /* Material+UIWindow.swift */,
-				FA61F38720DCAAD000339E05 /* EdgeInsets.swift */,
-				FA61F38820DCAAD000339E05 /* ChipBar.swift */,
-				FA61F38920DCAAD000339E05 /* SearchBarController.swift */,
-				FA61F38A20DCAAD000339E05 /* Screen.swift */,
-				FA61F38B20DCAAD000339E05 /* Shape.swift */,
-				FA61F38C20DCAAD000339E05 /* TableViewController.swift */,
-				FA61F38D20DCAAD000339E05 /* TableView.swift */,
-				FA61F38E20DCAAD000339E05 /* PulseView.swift */,
-				FA61F38F20DCAAD000339E05 /* Material+String.swift */,
-				FA61F39020DCAAD000339E05 /* ChipBarController.swift */,
-				FA61F39120DCAAD000339E05 /* Gravity.swift */,
-				FA61F39220DCAAD000339E05 /* Switch.swift */,
-				FA61F39320DCAAD000339E05 /* Material+UIViewController.swift */,
-				FA61F39420DCAAD000339E05 /* TextField.swift */,
-				FA61F39520DCAAD000339E05 /* Material+NSMutableAttributedString.swift */,
-				FA61F39620DCAAD000339E05 /* ImageCard.swift */,
-				FA61F39720DCAAD000339E05 /* Material+UIImage.swift */,
-				FA61F39820DCAAD000339E05 /* CardCollectionViewController.swift */,
-				FA61F39920DCAAD000339E05 /* Material+MotionAnimation.swift */,
-				FA61F39A20DCAAD000339E05 /* TextView.swift */,
-				FA61F39B20DCAAD000339E05 /* MagiMaterialAssets.xcassets */,
-				FA61F39C20DCAAD000339E05 /* Grid.swift */,
-				FA61F39D20DCAAD000339E05 /* Device.swift */,
-				FA61F39E20DCAAD000339E05 /* ErrorTextField.swift */,
-				FA61F39F20DCAAD000339E05 /* Divider.swift */,
-				FA61F3A020DCAAD000339E05 /* TransitionController.swift */,
-				FA61F3A120DCAAD000339E05 /* Border.swift */,
-				FA61F3A220DCAAD000339E05 /* Layout.swift */,
-				FA61F3A320DCAAD000339E05 /* RaisedButton.swift */,
-				FA61F3A420DCAAD000339E05 /* Application.swift */,
-				FA61F3A520DCAAD000339E05 /* Font.swift */,
-				FA61F3A620DCAAD000339E05 /* SpringAnimation.swift */,
-				FA61F3A720DCAAD000339E05 /* CardCollectionViewCell.swift */,
-				FA61F3A820DCAAD000339E05 /* NavigationItem.swift */,
-				FA61F3A920DCAAD000339E05 /* Button.swift */,
-				FA61F3AA20DCAAD000339E05 /* Layer.swift */,
-				FA61F3AB20DCAAD000339E05 /* Color.swift */,
-				FA61F3AC20DCAAD000339E05 /* NavigationController.swift */,
-				FA61F3AD20DCAAD000339E05 /* CornerRadius.swift */,
-				FA61F3AE20DCAAD000339E05 /* CollectionReusableView.swift */,
-				FA61F3AF20DCAAD000339E05 /* Material+UIFont.swift */,
-				FA61F3B020DCAAD000339E05 /* CollectionViewController.swift */,
-				FA61F3B120DCAAD000339E05 /* DisplayStyle.swift */,
-				FA61F3B220DCAAD000339E05 /* MagiMaterialFont */,
-			);
-			path = MagiMaterial;
-			sourceTree = "<group>";
-		};
-		FA61F3B220DCAAD000339E05 /* MagiMaterialFont */ = {
-			isa = PBXGroup;
-			children = (
-				FA61F3B320DCAAD000339E05 /* Roboto */,
-			);
-			path = MagiMaterialFont;
-			sourceTree = "<group>";
-		};
-		FA61F3B320DCAAD000339E05 /* Roboto */ = {
-			isa = PBXGroup;
-			children = (
-				FA61F3B420DCAAD000339E05 /* Roboto-Medium.ttf */,
-				FA61F3B520DCAAD000339E05 /* Roboto-Light.ttf */,
-				FA61F3B620DCAAD000339E05 /* Roboto-Regular.ttf */,
-				FA61F3B720DCAAD000339E05 /* Roboto-Bold.ttf */,
-				FA61F3B820DCAAD000339E05 /* Roboto-Thin.ttf */,
-			);
-			path = Roboto;
 			sourceTree = "<group>";
 		};
 		FA61F3B920DCAAD000339E05 /* Resources */ = {
@@ -1035,6 +929,123 @@
 			path = V;
 			sourceTree = "<group>";
 		};
+		FAAB45FA20E0BBF6001120B3 /* Material */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB463E20E0BBF6001120B3 /* Application.swift */,
+				FAAB45FB20E0BBF6001120B3 /* Toolbar.swift */,
+				FAAB45FC20E0BBF6001120B3 /* Offset.swift */,
+				FAAB45FD20E0BBF6001120B3 /* TabBar.swift */,
+				FAAB45FE20E0BBF6001120B3 /* ToolbarController.swift */,
+				FAAB45FF20E0BBF6001120B3 /* View.swift */,
+				FAAB460020E0BBF6001120B3 /* NavigationDrawerController.swift */,
+				FAAB460120E0BBF6001120B3 /* CollectionViewLayout.swift */,
+				FAAB460220E0BBF6001120B3 /* DynamicFontType.swift */,
+				FAAB460320E0BBF6001120B3 /* Material+CALayer.swift */,
+				FAAB460420E0BBF6001120B3 /* FABMenuController.swift */,
+				FAAB460520E0BBF6001120B3 /* Material+UIView.swift */,
+				FAAB460620E0BBF6001120B3 /* InterimSpace.swift */,
+				FAAB460720E0BBF6001120B3 /* CollectionView.swift */,
+				FAAB460820E0BBF6001120B3 /* Icon.swift */,
+				FAAB460920E0BBF6001120B3 /* FABMenu.swift */,
+				FAAB460A20E0BBF6001120B3 /* SnackbarController.swift */,
+				FAAB460B20E0BBF6001120B3 /* PulseAnimation.swift */,
+				FAAB460C20E0BBF6001120B3 /* NavigationBar.swift */,
+				FAAB460D20E0BBF6001120B3 /* StatusBarController.swift */,
+				FAAB460E20E0BBF6001120B3 /* Material+Array.swift */,
+				FAAB460F20E0BBF6001120B3 /* RobotoFont.swift */,
+				FAAB461020E0BBF6001120B3 /* HeightPreset.swift */,
+				FAAB461120E0BBF6001120B3 /* TableViewCell.swift */,
+				FAAB461220E0BBF6001120B3 /* Snackbar.swift */,
+				FAAB461320E0BBF6001120B3 /* DataSourceItem.swift */,
+				FAAB461420E0BBF6001120B3 /* FlatButton.swift */,
+				FAAB461520E0BBF6001120B3 /* Card.swift */,
+				FAAB461620E0BBF6001120B3 /* Bar.swift */,
+				FAAB461720E0BBF6001120B3 /* BottomNavigationController.swift */,
+				FAAB461820E0BBF6001120B3 /* PresenterCard.swift */,
+				FAAB461920E0BBF6001120B3 /* IconButton.swift */,
+				FAAB461A20E0BBF6001120B3 /* TabsController.swift */,
+				FAAB461B20E0BBF6001120B3 /* CollectionViewCell.swift */,
+				FAAB461C20E0BBF6001120B3 /* Depth.swift */,
+				FAAB461D20E0BBF6001120B3 /* TextStorage.swift */,
+				FAAB461E20E0BBF6001120B3 /* FABButton.swift */,
+				FAAB461F20E0BBF6001120B3 /* SearchBar.swift */,
+				FAAB462020E0BBF6001120B3 /* Material+UIWindow.swift */,
+				FAAB462120E0BBF6001120B3 /* EdgeInsets.swift */,
+				FAAB462220E0BBF6001120B3 /* ChipBar.swift */,
+				FAAB462320E0BBF6001120B3 /* SearchBarController.swift */,
+				FAAB462420E0BBF6001120B3 /* Screen.swift */,
+				FAAB462520E0BBF6001120B3 /* Shape.swift */,
+				FAAB462620E0BBF6001120B3 /* TableViewController.swift */,
+				FAAB462720E0BBF6001120B3 /* TableView.swift */,
+				FAAB462820E0BBF6001120B3 /* PulseView.swift */,
+				FAAB462920E0BBF6001120B3 /* Material+String.swift */,
+				FAAB462A20E0BBF6001120B3 /* ChipBarController.swift */,
+				FAAB462B20E0BBF6001120B3 /* Gravity.swift */,
+				FAAB462C20E0BBF6001120B3 /* Switch.swift */,
+				FAAB462D20E0BBF6001120B3 /* Material+UIViewController.swift */,
+				FAAB462E20E0BBF6001120B3 /* TextField.swift */,
+				FAAB462F20E0BBF6001120B3 /* Material+NSMutableAttributedString.swift */,
+				FAAB463020E0BBF6001120B3 /* ImageCard.swift */,
+				FAAB463120E0BBF6001120B3 /* Material+UIImage.swift */,
+				FAAB463220E0BBF6001120B3 /* CardCollectionViewController.swift */,
+				FAAB463320E0BBF6001120B3 /* Material+MotionAnimation.swift */,
+				FAAB463420E0BBF6001120B3 /* TextView.swift */,
+				FAAB463620E0BBF6001120B3 /* Grid.swift */,
+				FAAB463720E0BBF6001120B3 /* Device.swift */,
+				FAAB463820E0BBF6001120B3 /* ErrorTextField.swift */,
+				FAAB463920E0BBF6001120B3 /* Divider.swift */,
+				FAAB463A20E0BBF6001120B3 /* TransitionController.swift */,
+				FAAB463B20E0BBF6001120B3 /* Border.swift */,
+				FAAB463C20E0BBF6001120B3 /* Layout.swift */,
+				FAAB463D20E0BBF6001120B3 /* RaisedButton.swift */,
+				FAAB463F20E0BBF6001120B3 /* Font.swift */,
+				FAAB464020E0BBF6001120B3 /* SpringAnimation.swift */,
+				FAAB464120E0BBF6001120B3 /* CardCollectionViewCell.swift */,
+				FAAB464220E0BBF6001120B3 /* NavigationItem.swift */,
+				FAAB464320E0BBF6001120B3 /* Button.swift */,
+				FAAB464420E0BBF6001120B3 /* Layer.swift */,
+				FAAB464520E0BBF6001120B3 /* Color.swift */,
+				FAAB464620E0BBF6001120B3 /* NavigationController.swift */,
+				FAAB464720E0BBF6001120B3 /* CornerRadius.swift */,
+				FAAB464820E0BBF6001120B3 /* CollectionReusableView.swift */,
+				FAAB464920E0BBF6001120B3 /* Material+UIFont.swift */,
+				FAAB464A20E0BBF6001120B3 /* CollectionViewController.swift */,
+				FAAB464B20E0BBF6001120B3 /* DisplayStyle.swift */,
+				FAAB464C20E0BBF6001120B3 /* MagiMaterialFont */,
+			);
+			path = Material;
+			sourceTree = "<group>";
+		};
+		FAAB464C20E0BBF6001120B3 /* MagiMaterialFont */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB464D20E0BBF6001120B3 /* Roboto */,
+			);
+			path = MagiMaterialFont;
+			sourceTree = "<group>";
+		};
+		FAAB464D20E0BBF6001120B3 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB464E20E0BBF6001120B3 /* Roboto-Medium.ttf */,
+				FAAB464F20E0BBF6001120B3 /* Roboto-Light.ttf */,
+				FAAB465020E0BBF6001120B3 /* Roboto-Regular.ttf */,
+				FAAB465120E0BBF6001120B3 /* Roboto-Bold.ttf */,
+				FAAB465220E0BBF6001120B3 /* Roboto-Thin.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		FAAB46A920E0BC06001120B3 /* MagiMaterial */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB463520E0BBF6001120B3 /* MagiMaterialAssets.xcassets */,
+				FAAB46AA20E0C08D001120B3 /* MagiApplication.swift */,
+			);
+			path = MagiMaterial;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1144,16 +1155,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA61F46A20DCAAD100339E05 /* Roboto-Thin.ttf in Resources */,
-				FA61F46920DCAAD100339E05 /* Roboto-Bold.ttf in Resources */,
 				FA61F46E20DCAAD100339E05 /* tapMenu.json in Resources */,
-				FA61F46820DCAAD100339E05 /* Roboto-Regular.ttf in Resources */,
-				FA61F46620DCAAD100339E05 /* Roboto-Medium.ttf in Resources */,
+				FAAB468D20E0BBF6001120B3 /* MagiMaterialAssets.xcassets in Resources */,
+				FAAB46A720E0BBF6001120B3 /* Roboto-Bold.ttf in Resources */,
 				FA61F46D20DCAAD100339E05 /* Main.storyboard in Resources */,
+				FAAB46A820E0BBF6001120B3 /* Roboto-Thin.ttf in Resources */,
+				FAAB46A420E0BBF6001120B3 /* Roboto-Medium.ttf in Resources */,
 				FA61F3E820DCAAD100339E05 /* MagiMotionInfo.plist in Resources */,
-				FA61F46720DCAAD100339E05 /* Roboto-Light.ttf in Resources */,
-				FA61F44F20DCAAD100339E05 /* MagiMaterialAssets.xcassets in Resources */,
 				FA61F46B20DCAAD100339E05 /* Assets.xcassets in Resources */,
+				FAAB46A620E0BBF6001120B3 /* Roboto-Regular.ttf in Resources */,
+				FAAB46A520E0BBF6001120B3 /* Roboto-Light.ttf in Resources */,
 				FA61F2D320DCA79A00339E05 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1308,182 +1319,183 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA61F45420DCAAD100339E05 /* TransitionController.swift in Sources */,
+				FAAB469720E0BBF6001120B3 /* Font.swift in Sources */,
 				FA61F49520DCC19800339E05 /* MagiNewsViewController.swift in Sources */,
-				FA61F43820DCAAD100339E05 /* FABButton.swift in Sources */,
 				FA61F3F520DCAAD100339E05 /* MagiMotionTransition+UIViewControllerTransitioningDelegate.swift in Sources */,
+				FAAB467920E0BBF6001120B3 /* EdgeInsets.swift in Sources */,
+				FAAB46A320E0BBF6001120B3 /* DisplayStyle.swift in Sources */,
+				FAAB465420E0BBF6001120B3 /* Offset.swift in Sources */,
+				FAAB465320E0BBF6001120B3 /* Toolbar.swift in Sources */,
+				FAAB465C20E0BBF6001120B3 /* FABMenuController.swift in Sources */,
+				FAAB465D20E0BBF6001120B3 /* Material+UIView.swift in Sources */,
+				FAAB466A20E0BBF6001120B3 /* Snackbar.swift in Sources */,
 				FA61F40A20DCAAD100339E05 /* MagiMotion+CAMediaTimingFunction.swift in Sources */,
+				FAAB467A20E0BBF6001120B3 /* ChipBar.swift in Sources */,
 				FA61F3CB20DCAAD100339E05 /* ManagedTag.swift in Sources */,
-				FA61F45520DCAAD100339E05 /* Border.swift in Sources */,
+				FAAB469920E0BBF6001120B3 /* CardCollectionViewCell.swift in Sources */,
+				FAAB46A120E0BBF6001120B3 /* Material+UIFont.swift in Sources */,
 				FA61F3CF20DCAAD100339E05 /* ManagedActionTag.swift in Sources */,
 				FA61F3EA20DCAAD100339E05 /* MagiMatchPreprocessor.swift in Sources */,
-				FA61F42020DCAAD100339E05 /* InterimSpace.swift in Sources */,
-				FA61F46220DCAAD100339E05 /* CollectionReusableView.swift in Sources */,
 				FA61F3F120DCAAD100339E05 /* MagiMotionTransition+Complete.swift in Sources */,
-				FA61F41D20DCAAD100339E05 /* Material+CALayer.swift in Sources */,
-				FA61F41A20DCAAD100339E05 /* NavigationDrawerController.swift in Sources */,
 				FA61F3E520DCAAD100339E05 /* Coordinator.swift in Sources */,
-				FA61F43C20DCAAD100339E05 /* ChipBar.swift in Sources */,
+				FAAB468220E0BBF6001120B3 /* ChipBarController.swift in Sources */,
+				FAAB466220E0BBF6001120B3 /* SnackbarController.swift in Sources */,
 				FA61F47F20DCC0C300339E05 /* ContainerViewController.swift in Sources */,
 				FA61F3F420DCAAD100339E05 /* MagiMotionTransition+Interactive.swift in Sources */,
 				FA61F3C420DCAAD100339E05 /* Ext+UIImageView.swift in Sources */,
 				FA61F3C920DCAAD100339E05 /* Storage.swift in Sources */,
-				FA61F42D20DCAAD100339E05 /* DataSourceItem.swift in Sources */,
-				FA61F43520DCAAD100339E05 /* CollectionViewCell.swift in Sources */,
 				FA61F40020DCAAD100339E05 /* MagiMotionAnimator.swift in Sources */,
-				FA61F45720DCAAD100339E05 /* RaisedButton.swift in Sources */,
 				FA61F3D720DCAAD100339E05 /* ManagedRelationshipProperty.swift in Sources */,
-				FA61F43B20DCAAD100339E05 /* EdgeInsets.swift in Sources */,
 				FA61F3E120DCAAD100339E05 /* ManagedProperty.swift in Sources */,
-				FA61F44120DCAAD100339E05 /* TableView.swift in Sources */,
-				FA61F42520DCAAD100339E05 /* PulseAnimation.swift in Sources */,
 				FA61F40320DCAAD100339E05 /* MagiMotionCoreAnimationViewContext.swift in Sources */,
 				FA61F40420DCAAD100339E05 /* MagiMotion+Array.swift in Sources */,
+				FAAB467B20E0BBF6001120B3 /* SearchBarController.swift in Sources */,
 				FA61F3D120DCAAD100339E05 /* Container.swift in Sources */,
+				FAAB465B20E0BBF6001120B3 /* Material+CALayer.swift in Sources */,
+				FAAB469E20E0BBF6001120B3 /* NavigationController.swift in Sources */,
 				FA61F3D020DCAAD100339E05 /* ManagedEntityGroup.swift in Sources */,
 				FA61F3C820DCAAD100339E05 /* MagiBaseViewController.swift in Sources */,
-				FA61F42220DCAAD100339E05 /* Icon.swift in Sources */,
-				FA61F41E20DCAAD100339E05 /* FABMenuController.swift in Sources */,
 				FA61F3E720DCAAD100339E05 /* ManagedObject.swift in Sources */,
-				FA61F44220DCAAD100339E05 /* PulseView.swift in Sources */,
-				FA61F43120DCAAD100339E05 /* BottomNavigationController.swift in Sources */,
-				FA61F41720DCAAD100339E05 /* TabBar.swift in Sources */,
-				FA61F41520DCAAD100339E05 /* Toolbar.swift in Sources */,
+				FAAB466D20E0BBF6001120B3 /* Card.swift in Sources */,
+				FAAB467220E0BBF6001120B3 /* TabsController.swift in Sources */,
+				FAAB468A20E0BBF6001120B3 /* CardCollectionViewController.swift in Sources */,
 				FA61F3FB20DCAAD100339E05 /* MagiMotionContext.swift in Sources */,
 				FA61F3FD20DCAAD100339E05 /* MagiMotionCAAnimation.swift in Sources */,
 				FA61F3FE20DCAAD100339E05 /* MagiMotionModifier.swift in Sources */,
-				FA61F44820DCAAD100339E05 /* TextField.swift in Sources */,
-				FA61F45120DCAAD100339E05 /* Device.swift in Sources */,
 				FA61F40920DCAAD100339E05 /* MagiMotion+Obj-C.swift in Sources */,
-				FA61F44620DCAAD100339E05 /* Switch.swift in Sources */,
+				FAAB468F20E0BBF6001120B3 /* Device.swift in Sources */,
 				FA61F3CE20DCAAD100339E05 /* Entity.swift in Sources */,
+				FAAB469A20E0BBF6001120B3 /* NavigationItem.swift in Sources */,
 				FA61F3E020DCAAD100339E05 /* Action.swift in Sources */,
-				FA61F44420DCAAD100339E05 /* ChipBarController.swift in Sources */,
 				FA61F3FA20DCAAD100339E05 /* MagiMotionProgressRunner.swift in Sources */,
 				FA61F40C20DCAAD100339E05 /* MagiMotionAnimationFillMode.swift in Sources */,
+				FAAB467120E0BBF6001120B3 /* IconButton.swift in Sources */,
 				FA61F3F620DCAAD100339E05 /* MagiMotionTransition+Animate.swift in Sources */,
+				FAAB468C20E0BBF6001120B3 /* TextView.swift in Sources */,
+				FAAB467E20E0BBF6001120B3 /* TableViewController.swift in Sources */,
+				FAAB466F20E0BBF6001120B3 /* BottomNavigationController.swift in Sources */,
 				FA61F41020DCAAD100339E05 /* MagiMotionViewOrderStrategy.swift in Sources */,
 				FA61F48320DCC0C300339E05 /* MenuItem.swift in Sources */,
-				FA61F42620DCAAD100339E05 /* NavigationBar.swift in Sources */,
 				FA61F3EF20DCAAD100339E05 /* MagiMotionCorePreprocessor.swift in Sources */,
-				FA61F41920DCAAD100339E05 /* View.swift in Sources */,
-				FA61F46420DCAAD100339E05 /* CollectionViewController.swift in Sources */,
+				FAAB466820E0BBF6001120B3 /* HeightPreset.swift in Sources */,
 				FA61F3C520DCAAD100339E05 /* Ext+UIView.swift in Sources */,
+				FAAB468420E0BBF6001120B3 /* Switch.swift in Sources */,
 				FA61F49720DCC1AA00339E05 /* MagiMineViewController.swift in Sources */,
-				FA61F45D20DCAAD100339E05 /* Button.swift in Sources */,
 				FA61F3F720DCAAD100339E05 /* MagiMotionTransition.swift in Sources */,
+				FAAB467820E0BBF6001120B3 /* Material+UIWindow.swift in Sources */,
+				FAAB469F20E0BBF6001120B3 /* CornerRadius.swift in Sources */,
+				FAAB465E20E0BBF6001120B3 /* InterimSpace.swift in Sources */,
+				FAAB469C20E0BBF6001120B3 /* Layer.swift in Sources */,
 				FA61F41220DCAAD100339E05 /* MagiMotionTransitionObserver.swift in Sources */,
+				FAAB467F20E0BBF6001120B3 /* TableView.swift in Sources */,
 				FA61F3D320DCAAD100339E05 /* ManagedEntityTag.swift in Sources */,
+				FAAB469020E0BBF6001120B3 /* ErrorTextField.swift in Sources */,
 				FA61F3CA20DCAAD100339E05 /* ManagedEntity.swift in Sources */,
-				FA61F43220DCAAD100339E05 /* PresenterCard.swift in Sources */,
-				FA61F44C20DCAAD100339E05 /* CardCollectionViewController.swift in Sources */,
 				FA61F47120DCC0B800339E05 /* MagiNavigationController.swift in Sources */,
 				FA61F3F220DCAAD100339E05 /* MagiMotionTransition+Start.swift in Sources */,
-				FA61F44720DCAAD100339E05 /* Material+UIViewController.swift in Sources */,
-				FA61F41C20DCAAD100339E05 /* DynamicFontType.swift in Sources */,
 				FA61F3D520DCAAD100339E05 /* Graph.swift in Sources */,
+				FAAB468620E0BBF6001120B3 /* TextField.swift in Sources */,
+				FAAB467620E0BBF6001120B3 /* FABButton.swift in Sources */,
+				FAAB466120E0BBF6001120B3 /* FABMenu.swift in Sources */,
 				FA61F3C120DCAAD100339E05 /* MagiHelper.swift in Sources */,
-				FA61F41820DCAAD100339E05 /* ToolbarController.swift in Sources */,
-				FA61F45B20DCAAD100339E05 /* CardCollectionViewCell.swift in Sources */,
 				FA61F40D20DCAAD100339E05 /* MagiMotionCoordinateSpace.swift in Sources */,
+				FAAB465A20E0BBF6001120B3 /* DynamicFontType.swift in Sources */,
 				FA61F3D220DCAAD100339E05 /* JSON.swift in Sources */,
-				FA61F46320DCAAD100339E05 /* Material+UIFont.swift in Sources */,
 				FA61F3D920DCAAD100339E05 /* Context.swift in Sources */,
+				FAAB466B20E0BBF6001120B3 /* DataSourceItem.swift in Sources */,
+				FAAB46A020E0BBF6001120B3 /* CollectionReusableView.swift in Sources */,
 				FA61F3CC20DCAAD100339E05 /* Model.swift in Sources */,
+				FAAB466720E0BBF6001120B3 /* RobotoFont.swift in Sources */,
 				FA61F3F920DCAAD100339E05 /* MagiMotionTransition+UITabBarControllerDelegate.swift in Sources */,
-				FA61F44D20DCAAD100339E05 /* Material+MotionAnimation.swift in Sources */,
-				FA61F44A20DCAAD100339E05 /* ImageCard.swift in Sources */,
+				FAAB466320E0BBF6001120B3 /* PulseAnimation.swift in Sources */,
+				FAAB468E20E0BBF6001120B3 /* Grid.swift in Sources */,
 				FA61F40520DCAAD100339E05 /* MagiMotion+CG.swift in Sources */,
-				FA61F42C20DCAAD100339E05 /* Snackbar.swift in Sources */,
 				FA61F3DC20DCAAD100339E05 /* ManagedRelationship.swift in Sources */,
-				FA61F45620DCAAD100339E05 /* Layout.swift in Sources */,
+				FAAB467020E0BBF6001120B3 /* PresenterCard.swift in Sources */,
+				FAAB465920E0BBF6001120B3 /* CollectionViewLayout.swift in Sources */,
 				FA61F47220DCC0B800339E05 /* MagiTabBarController.swift in Sources */,
 				FA61F3C320DCAAD100339E05 /* Ext+UIButton.swift in Sources */,
-				FA61F45220DCAAD100339E05 /* ErrorTextField.swift in Sources */,
 				FA61F47E20DCC0C300339E05 /* SideMenuViewController.swift in Sources */,
+				FAAB469B20E0BBF6001120B3 /* Button.swift in Sources */,
 				FA61F49320DCC18800339E05 /* MagiFindViewController.swift in Sources */,
 				FA61F41320DCAAD100339E05 /* MagiMotionAnimationState.swift in Sources */,
-				FA61F43D20DCAAD100339E05 /* SearchBarController.swift in Sources */,
+				FAAB468820E0BBF6001120B3 /* ImageCard.swift in Sources */,
 				FA61F3F320DCAAD100339E05 /* MagiMotionTransition+UINavigationControllerDelegate.swift in Sources */,
-				FA61F41620DCAAD100339E05 /* Offset.swift in Sources */,
+				FAAB469620E0BBF6001120B3 /* Application.swift in Sources */,
 				FA61F2C920DCA79800339E05 /* AppDelegate.swift in Sources */,
 				FA61F3C220DCAAD100339E05 /* Ext+String.swift in Sources */,
 				FA61F3DB20DCAAD100339E05 /* ManagedActionGroup.swift in Sources */,
 				FA61F3ED20DCAAD100339E05 /* MagiCascadePreprocessor.swift in Sources */,
+				FAAB469220E0BBF6001120B3 /* TransitionController.swift in Sources */,
 				FA61F3C620DCAAD100339E05 /* Ext+UILable.swift in Sources */,
-				FA61F43620DCAAD100339E05 /* Depth.swift in Sources */,
-				FA61F45320DCAAD100339E05 /* Divider.swift in Sources */,
+				FAAB465520E0BBF6001120B3 /* TabBar.swift in Sources */,
 				FA61F3E920DCAAD100339E05 /* MagiSourcePreprocessor.swift in Sources */,
 				FA61F3E220DCAAD100339E05 /* Watch.swift in Sources */,
-				FA61F42320DCAAD100339E05 /* FABMenu.swift in Sources */,
-				FA61F45A20DCAAD100339E05 /* SpringAnimation.swift in Sources */,
+				FAAB469320E0BBF6001120B3 /* Border.swift in Sources */,
+				FAAB469420E0BBF6001120B3 /* Layout.swift in Sources */,
 				FA61F3C020DCAAD100339E05 /* MagiRegexHelper.swift in Sources */,
-				FA61F41B20DCAAD100339E05 /* CollectionViewLayout.swift in Sources */,
 				FA61F40B20DCAAD100339E05 /* MagiMotion+CALayer.swift in Sources */,
-				FA61F43920DCAAD100339E05 /* SearchBar.swift in Sources */,
-				FA61F43E20DCAAD100339E05 /* Screen.swift in Sources */,
-				FA61F45C20DCAAD100339E05 /* NavigationItem.swift in Sources */,
-				FA61F41F20DCAAD100339E05 /* Material+UIView.swift in Sources */,
 				FA61F40620DCAAD100339E05 /* MagiMotion+UIViewController.swift in Sources */,
-				FA61F43020DCAAD100339E05 /* Bar.swift in Sources */,
-				FA61F43F20DCAAD100339E05 /* Shape.swift in Sources */,
 				FA61F41420DCAAD100339E05 /* MagiCycleView.swift in Sources */,
-				FA61F42A20DCAAD100339E05 /* HeightPreset.swift in Sources */,
-				FA61F45F20DCAAD100339E05 /* Color.swift in Sources */,
-				FA61F46520DCAAD100339E05 /* DisplayStyle.swift in Sources */,
+				FAAB469520E0BBF6001120B3 /* RaisedButton.swift in Sources */,
+				FAAB468920E0BBF6001120B3 /* Material+UIImage.swift in Sources */,
 				FA61F48220DCC0C300339E05 /* MenuButton.swift in Sources */,
+				FAAB466920E0BBF6001120B3 /* TableViewCell.swift in Sources */,
+				FAAB467720E0BBF6001120B3 /* SearchBar.swift in Sources */,
+				FAAB466620E0BBF6001120B3 /* Material+Array.swift in Sources */,
 				FA61F48020DCC0C300339E05 /* CenterViewController.swift in Sources */,
-				FA61F42E20DCAAD100339E05 /* FlatButton.swift in Sources */,
-				FA61F44520DCAAD100339E05 /* Gravity.swift in Sources */,
-				FA61F44320DCAAD100339E05 /* Material+String.swift in Sources */,
-				FA61F43A20DCAAD100339E05 /* Material+UIWindow.swift in Sources */,
-				FA61F42F20DCAAD100339E05 /* Card.swift in Sources */,
-				FA61F42920DCAAD100339E05 /* RobotoFont.swift in Sources */,
 				FA61F3EB20DCAAD100339E05 /* MagiConditionalPreprocessor.swift in Sources */,
-				FA61F42820DCAAD100339E05 /* Material+Array.swift in Sources */,
-				FA61F45020DCAAD100339E05 /* Grid.swift in Sources */,
+				FAAB469820E0BBF6001120B3 /* SpringAnimation.swift in Sources */,
 				FA61F40220DCAAD100339E05 /* MagiMotionViewPropertyViewContext.swift in Sources */,
-				FA61F43420DCAAD100339E05 /* TabsController.swift in Sources */,
+				FAAB469D20E0BBF6001120B3 /* Color.swift in Sources */,
 				FA61F3DF20DCAAD100339E05 /* ManagedNode.swift in Sources */,
+				FAAB467C20E0BBF6001120B3 /* Screen.swift in Sources */,
 				FA61F3FF20DCAAD100339E05 /* MagiMotionCoreAnimator.swift in Sources */,
 				FA61F41120DCAAD100339E05 /* MagiMotionPlugin.swift in Sources */,
+				FAAB467520E0BBF6001120B3 /* TextStorage.swift in Sources */,
+				FAAB466C20E0BBF6001120B3 /* FlatButton.swift in Sources */,
+				FAAB465620E0BBF6001120B3 /* ToolbarController.swift in Sources */,
+				FAAB467420E0BBF6001120B3 /* Depth.swift in Sources */,
+				FAAB465820E0BBF6001120B3 /* NavigationDrawerController.swift in Sources */,
 				FA61F3EE20DCAAD100339E05 /* MagiIgnoreSubviewModifiersPreprocessor.swift in Sources */,
-				FA61F45E20DCAAD100339E05 /* Layer.swift in Sources */,
-				FA61F42720DCAAD100339E05 /* StatusBarController.swift in Sources */,
-				FA61F44020DCAAD100339E05 /* TableViewController.swift in Sources */,
 				FA61F3EC20DCAAD100339E05 /* MagiTransitionPreprocessor.swift in Sources */,
 				FA61F3C720DCAAD100339E05 /* Ext+UIBarButtonItem.swift in Sources */,
 				FA61F3E320DCAAD100339E05 /* Node.swift in Sources */,
 				FA61F49D20DCC46A00339E05 /* MagiCommunityViewController.swift in Sources */,
+				FAAB466E20E0BBF6001120B3 /* Bar.swift in Sources */,
+				FAAB468B20E0BBF6001120B3 /* Material+MotionAnimation.swift in Sources */,
+				FAAB46A220E0BBF6001120B3 /* CollectionViewController.swift in Sources */,
 				FA61F40720DCAAD100339E05 /* MagiMotion+UIView.swift in Sources */,
 				FA61F40120DCAAD100339E05 /* MagiMotionAnimatorViewContext.swift in Sources */,
+				FAAB468720E0BBF6001120B3 /* Material+NSMutableAttributedString.swift in Sources */,
+				FAAB469120E0BBF6001120B3 /* Divider.swift in Sources */,
+				FAAB468520E0BBF6001120B3 /* Material+UIViewController.swift in Sources */,
 				FA61F40E20DCAAD100339E05 /* MagiMotionSnapshotType.swift in Sources */,
+				FAAB465720E0BBF6001120B3 /* View.swift in Sources */,
 				FA61F40F20DCAAD100339E05 /* MagiMotionTargetState.swift in Sources */,
 				FA61F3DE20DCAAD100339E05 /* ManagedAction.swift in Sources */,
-				FA61F46020DCAAD100339E05 /* NavigationController.swift in Sources */,
-				FA61F45920DCAAD100339E05 /* Font.swift in Sources */,
-				FA61F43320DCAAD100339E05 /* IconButton.swift in Sources */,
-				FA61F42B20DCAAD100339E05 /* TableViewCell.swift in Sources */,
 				FA61F3FC20DCAAD100339E05 /* MagiMotionAnimation.swift in Sources */,
-				FA61F42120DCAAD100339E05 /* CollectionView.swift in Sources */,
+				FAAB468320E0BBF6001120B3 /* Gravity.swift in Sources */,
 				FA61F40820DCAAD100339E05 /* MagiMotion+UIKit.swift in Sources */,
-				FA61F45820DCAAD100339E05 /* Application.swift in Sources */,
+				FAAB466020E0BBF6001120B3 /* Icon.swift in Sources */,
+				FAAB46AB20E0C08D001120B3 /* MagiApplication.swift in Sources */,
+				FAAB468120E0BBF6001120B3 /* Material+String.swift in Sources */,
 				FA61F3E420DCAAD100339E05 /* Search.swift in Sources */,
+				FAAB466520E0BBF6001120B3 /* StatusBarController.swift in Sources */,
 				FA61F3F820DCAAD100339E05 /* MagiMotionTransition+CustomTransition.swift in Sources */,
-				FA61F44920DCAAD100339E05 /* Material+NSMutableAttributedString.swift in Sources */,
 				FA61F3DA20DCAAD100339E05 /* Relationship.swift in Sources */,
 				FA61F3E620DCAAD100339E05 /* ManagedRelationshipTag.swift in Sources */,
-				FA61F44E20DCAAD100339E05 /* TextView.swift in Sources */,
 				FA61F3D620DCAAD100339E05 /* ManagedRelationshipGroup.swift in Sources */,
 				FA61F3F020DCAAD100339E05 /* MagiMotionPreprocessor.swift in Sources */,
+				FAAB467320E0BBF6001120B3 /* CollectionViewCell.swift in Sources */,
+				FAAB465F20E0BBF6001120B3 /* CollectionView.swift in Sources */,
 				FA61F3D820DCAAD100339E05 /* File.swift in Sources */,
+				FAAB468020E0BBF6001120B3 /* PulseView.swift in Sources */,
+				FAAB467D20E0BBF6001120B3 /* Shape.swift in Sources */,
 				FA61F3CD20DCAAD100339E05 /* ManagedActionProperty.swift in Sources */,
-				FA61F46120DCAAD100339E05 /* CornerRadius.swift in Sources */,
 				FA61F3DD20DCAAD100339E05 /* ManagedGroup.swift in Sources */,
-				FA61F44B20DCAAD100339E05 /* Material+UIImage.swift in Sources */,
 				FA61F3D420DCAAD100339E05 /* ManagedEntityProperty.swift in Sources */,
-				FA61F43720DCAAD100339E05 /* TextStorage.swift in Sources */,
-				FA61F42420DCAAD100339E05 /* SnackbarController.swift in Sources */,
+				FAAB466420E0BBF6001120B3 /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1661,7 +1673,10 @@
 				DEVELOPMENT_TEAM = TDBLA72SEX;
 				INFOPLIST_FILE = MagiApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.anran.MagiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -1678,7 +1693,10 @@
 				DEVELOPMENT_TEAM = TDBLA72SEX;
 				INFOPLIST_FILE = MagiApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.anran.MagiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -1694,7 +1712,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MagiAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.anran.MagiAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -1711,7 +1733,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MagiAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.anran.MagiAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -1727,7 +1753,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MagiAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.anran.MagiAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -1743,7 +1773,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MagiAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.anran.MagiAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
