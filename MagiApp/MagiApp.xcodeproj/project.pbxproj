@@ -433,7 +433,7 @@
 		FAAB46AC20E0C784001120B3 /* MagiScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagiScreen.swift; sourceTree = "<group>"; };
 		FAAB46B020E0CAB2001120B3 /* upload.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = upload.php; sourceTree = "<group>"; };
 		FAAB46B120E0CAB2001120B3 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
-		FAAB46B220E0CAB2001120B3 /* uploadImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uploadImage.png; sourceTree = "<group>"; };
+		FAAB46B220E0CAB2001120B3 /* uploadImage.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = uploadImage.png; sourceTree = "<group>"; };
 		FAAB46B820E0CC84001120B3 /* URLSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionViewController.swift; sourceTree = "<group>"; };
 		FF7AEA5F27B6C1D940F8D12D /* Pods-MagiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagiApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagiApp/Pods-MagiApp.debug.xcconfig"; sourceTree = "<group>"; };
 		FF831C980DA937B7A859F03C /* Pods-MagiAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagiAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagiAppUITests/Pods-MagiAppUITests.release.xcconfig"; sourceTree = "<group>"; };
